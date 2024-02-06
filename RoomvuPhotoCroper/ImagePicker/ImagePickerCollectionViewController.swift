@@ -7,45 +7,41 @@
 
 import UIKit
 import Photos
+import Combine
 
 
-private let reuseIdentifier = "Cell"
+
 
 class ImagePickerCollectionViewController: UICollectionViewController {
 
+    private let ViewModel = ImagePickerViewModel()
+    private var cancellables: Set<AnyCancellable> = []
+    
+    
     private var images = [PHAsset]()
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Uncomment the following line to preserve selection between presentations
-        // self.clearsSelectionOnViewWillAppear = false
-
-        // Register cell classes
-        self.collectionView!.register(UICollectionViewCell.self, forCellWithReuseIdentifier: reuseIdentifier)
-        populatePhotos()
-        // Do any additional setup after loading the view.
-        
-        
+        loadPhotos()
+    
     }
     
-    private func populatePhotos(){
-        PHPhotoLibrary.requestAuthorization { [weak self] status in
-        print(status)
-            if status == .authorized {
-                
-                let assets = PHAsset.fetchAssets(with: PHAssetMediaType.image, options: nil)
-                assets.enumerateObjects { (object,_, _) in
-                    self?.images.append(object)
-                }
-                self?.images.reverse()
-                
-                
-                DispatchQueue.main.async {
-                    self?.collectionView.reloadData()
-                }
-                
-            }
-        }
+    private func loadPhotos(){
+        
+        
+        ViewModel.$photoLibraryImages.sink { [weak self] photoLibraryImages in
+            
+            print(photoLibraryImages)
+            self?.images = photoLibraryImages
+            DispatchQueue.main.async {
+            self?.collectionView.reloadData()
+                           }
+            
+        }.store(in: &cancellables)
+        
+        
     }
 
     /*
@@ -83,7 +79,7 @@ class ImagePickerCollectionViewController: UICollectionViewController {
             
             DispatchQueue.main.async {
                 
-                cell.imageButton.setImage(image, for: .normal) 
+                cell.imageButton.setImage(image, for: .normal)
                 
             }
         }

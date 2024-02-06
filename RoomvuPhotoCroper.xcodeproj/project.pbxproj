@@ -21,6 +21,7 @@
 		0FA02A962B70EB080045A80C /* ImagePickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A952B70EB080045A80C /* ImagePickerCollectionViewController.swift */; };
 		0FA02A982B7167480045A80C /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A972B7167480045A80C /* ImagePickerCollectionViewCell.swift */; };
 		0FA02A9C2B717A460045A80C /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A9B2B717A460045A80C /* ImageCropViewController.swift */; };
+		0FA02A9E2B71AA020045A80C /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,8 @@
 		0FA02A952B70EB080045A80C /* ImagePickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewController.swift; sourceTree = "<group>"; };
 		0FA02A972B7167480045A80C /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
 		0FA02A9B2B717A460045A80C /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
+		0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
+		0FA02A9F2B71BCBE0045A80C /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +147,7 @@
 		0FA02A8D2B6F7A820045A80C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				0FA02A9F2B71BCBE0045A80C /* Combine.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -161,6 +165,7 @@
 			children = (
 				0FA02A952B70EB080045A80C /* ImagePickerCollectionViewController.swift */,
 				0FA02A972B7167480045A80C /* ImagePickerCollectionViewCell.swift */,
+				0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */,
 			);
 			path = ImagePicker;
 			sourceTree = "<group>";
@@ -311,6 +316,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA02A9E2B71AA020045A80C /* ImagePickerViewModel.swift in Sources */,
 				0FA02A9C2B717A460045A80C /* ImageCropViewController.swift in Sources */,
 				0FA02A612B6F76E70045A80C /* ViewController.swift in Sources */,
 				0FA02A982B7167480045A80C /* ImagePickerCollectionViewCell.swift in Sources */,

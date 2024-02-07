@@ -1,0 +1,6 @@
+framework module Pods_RoomvuPhotoCroper_RoomvuPhotoCroperUITests {
+  umbrella header "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

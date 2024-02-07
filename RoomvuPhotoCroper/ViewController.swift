@@ -9,7 +9,13 @@ import UIKit
 import CropViewController
 
 class ViewController: UIViewController {
-
+    func didFinishProcessing(_ lable: String) {
+        nameLable.text = lable
+        print(lable)
+    }
+    
+    @IBOutlet weak var nameLable: UILabel!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.

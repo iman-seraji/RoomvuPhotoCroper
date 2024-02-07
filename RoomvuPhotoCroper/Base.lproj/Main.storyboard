@@ -238,6 +238,9 @@
                                             </backgroundConfiguration>
                                             <fontDescription key="titleFontDescription" type="boldSystem" pointSize="17"/>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <segue destination="g2E-o3-e5j" kind="modal" id="eFP-3P-Ccr"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" systemColor="systemBackgroundColor"/>
@@ -270,6 +273,9 @@
                         </userDefinedRuntimeAttributes>
                     </view>
                     <navigationItem key="navigationItem" id="pai-0b-Xzc"/>
+                    <connections>
+                        <outlet property="nameLable" destination="SPx-m9-qtl" id="oKe-DC-9Bi"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
@@ -280,14 +286,14 @@
             <objects>
                 <viewController id="g2E-o3-e5j" customClass="ImageCropViewController" customModule="RoomvuPhotoCroper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="hdJ-8E-4ff">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jdt-EY-r0O" userLabel="Header">
-                                <rect key="frame" x="0.0" y="59" width="430" height="54"/>
+                                <rect key="frame" x="0.0" y="0.0" width="430" height="54"/>
                                 <subviews>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Edit HeadShot" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mZ7-80-yAr">
-                                        <rect key="frame" x="16" y="16.666666666666671" width="110" height="21"/>
+                                        <rect key="frame" x="16" y="16.666666666666668" width="110" height="21.000000000000004"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="110" id="HcV-Zp-BxJ"/>
                                             <constraint firstAttribute="height" constant="21" id="g3q-4O-hEx"/>
@@ -304,6 +310,9 @@
                                         </constraints>
                                         <state key="normal" title="Button"/>
                                         <buttonConfiguration key="configuration" style="plain" image="X-Close"/>
+                                        <connections>
+                                            <action selector="buttonClose:" destination="g2E-o3-e5j" eventType="touchUpInside" id="Wts-ub-Zkk"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97652763129999998" green="0.98031455280000002" blue="0.98431426290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -316,9 +325,9 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eBV-I1-QTm" userLabel="Image">
-                                <rect key="frame" x="0.0" y="113" width="430" height="430"/>
+                                <rect key="frame" x="0.0" y="54" width="430" height="430"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_sample.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="rw6-wL-atd" userLabel="User_Image">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image_sample" translatesAutoresizingMaskIntoConstraints="NO" id="rw6-wL-atd" userLabel="User_Image">
                                         <rect key="frame" x="0.0" y="0.0" width="430" height="430"/>
                                     </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="User_Frame" translatesAutoresizingMaskIntoConstraints="NO" id="KZd-op-slB" userLabel="Frame">
@@ -339,7 +348,7 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KPP-NN-cnx" userLabel="Action">
-                                <rect key="frame" x="0.0" y="691" width="430" height="207"/>
+                                <rect key="frame" x="0.0" y="632" width="430" height="290"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0H0-db-nfI">
                                         <rect key="frame" x="33" y="16" width="364" height="44"/>
@@ -353,6 +362,9 @@
                                                 <color key="backgroundColor" red="0.17506453390000001" green="0.36435449120000002" blue="0.9020088315" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                             </backgroundConfiguration>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonUploadHeadshot:" destination="g2E-o3-e5j" eventType="touchUpInside" id="SXS-o3-CyN"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dHl-Uc-m2P">
                                         <rect key="frame" x="33" y="76" width="364" height="44"/>
@@ -375,6 +387,9 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonCancel:" destination="g2E-o3-e5j" eventType="touchUpInside" id="oNx-2g-ZyU"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="0.97652763129999998" green="0.98031455280000002" blue="0.98431426290000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
@@ -388,10 +403,13 @@
                                 </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="eK6-ad-JTl" userLabel="Content">
-                                <rect key="frame" x="0.0" y="543" width="430" height="145"/>
+                                <rect key="frame" x="0.0" y="484" width="430" height="145"/>
                                 <subviews>
-                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="30" minValue="0.0" maxValue="100" translatesAutoresizingMaskIntoConstraints="NO" id="gwi-vq-FkT">
+                                    <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="3" minValue="1" maxValue="5" translatesAutoresizingMaskIntoConstraints="NO" id="gwi-vq-FkT">
                                         <rect key="frame" x="31" y="8" width="368" height="31"/>
+                                        <connections>
+                                            <action selector="imageSliderChange:" destination="g2E-o3-e5j" eventType="valueChanged" id="9uF-UR-thQ"/>
+                                        </connections>
                                     </slider>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dSe-f5-oSf">
                                         <rect key="frame" x="146.66666666666666" y="46" width="136.99999999999997" height="39"/>
@@ -412,16 +430,22 @@
                                                 </fragment>
                                             </attributedString>
                                         </buttonConfiguration>
+                                        <connections>
+                                            <action selector="buttonRotat:" destination="g2E-o3-e5j" eventType="touchUpInside" id="Hcz-GC-JsT"/>
+                                        </connections>
                                     </button>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Fnb-0x-721">
                                         <rect key="frame" x="0.0" y="93" width="430" height="52"/>
                                         <subviews>
-                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="JlB-OI-TvY">
+                                            <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="JlB-OI-TvY">
                                                 <rect key="frame" x="350" y="10.666666666666629" width="49" height="31"/>
                                                 <constraints>
                                                     <constraint firstAttribute="height" constant="31" id="kFp-oH-cLY"/>
                                                     <constraint firstAttribute="width" constant="47" id="o28-yf-rTn"/>
                                                 </constraints>
+                                                <connections>
+                                                    <action selector="backgroundRemoverSwitch:" destination="g2E-o3-e5j" eventType="valueChanged" id="8uX-JR-NAu"/>
+                                                </connections>
                                             </switch>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Remove Background" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TmH-Yk-Ysm">
                                                 <rect key="frame" x="33" y="14.666666666666629" width="175" height="23"/>
@@ -476,46 +500,52 @@
                             <constraint firstItem="eBV-I1-QTm" firstAttribute="trailing" secondItem="I0p-rd-nVO" secondAttribute="trailing" id="k4D-Dg-SdH"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="Gps-74-G7t"/>
+                    <connections>
+                        <outlet property="imageSlider" destination="gwi-vq-FkT" id="Ox7-bn-8cA"/>
+                        <outlet property="processedImage" destination="rw6-wL-atd" id="ovs-dT-qhJ"/>
+                        <segue destination="44i-uk-eac" kind="modal" identifier="progressView" id="uQh-K7-6GS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="NMh-Pc-cdN" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2995.8139534883721" y="2.5751072961373391"/>
+            <point key="canvasLocation" x="2050" y="196"/>
         </scene>
-        <!--View Controller-->
+        <!--Progress View Controller-->
         <scene sceneID="mob-HI-Trd">
             <objects>
-                <viewController id="44i-uk-eac" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="progressView" id="44i-uk-eac" customClass="ProgressViewController" customModule="RoomvuPhotoCroper" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="dTQ-ab-2CB">
-                        <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
+                        <rect key="frame" x="0.0" y="0.0" width="430" height="922"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Cofee_Icon" translatesAutoresizingMaskIntoConstraints="NO" id="8cO-AY-Mwa">
-                                <rect key="frame" x="115" y="259" width="200" height="200"/>
+                                <rect key="frame" x="115" y="200" width="200" height="200"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="200" id="IFC-Qq-fUm"/>
                                     <constraint firstAttribute="height" constant="200" id="pjW-uW-n1j"/>
                                 </constraints>
                             </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Take a ship.." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zP7-lP-0IP">
-                                <rect key="frame" x="139" y="160" width="152" height="33"/>
+                                <rect key="frame" x="139" y="101" width="152" height="33"/>
                                 <fontDescription key="fontDescription" type="boldSystem" pointSize="27"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" progress="0.5" translatesAutoresizingMaskIntoConstraints="NO" id="p9Q-72-TwS">
-                                <rect key="frame" x="55" y="539" width="320" height="4"/>
+                                <rect key="frame" x="55" y="480" width="320" height="4"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="320" id="HKE-qe-07h"/>
                                 </constraints>
                             </progressView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="50% Processed..." textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="M37-OL-kZg">
-                                <rect key="frame" x="228" y="548" width="134.33333333333337" height="21"/>
+                                <rect key="frame" x="228" y="489" width="134.33333333333337" height="21"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" systemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="wordWrap" numberOfLines="2" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="u8D-4w-Vig">
-                                <rect key="frame" x="55" y="602" width="320" height="70"/>
+                                <rect key="frame" x="55" y="543" width="320" height="70"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="70" id="69f-bZ-FqM"/>
                                 </constraints>
@@ -546,44 +576,59 @@
                             <constraint firstItem="u8D-4w-Vig" firstAttribute="width" secondItem="p9Q-72-TwS" secondAttribute="width" id="zxe-O5-I9g"/>
                         </constraints>
                     </view>
+                    <navigationItem key="navigationItem" id="797-T9-Gr0"/>
+                    <connections>
+                        <outlet property="cofeeImage" destination="8cO-AY-Mwa" id="3Gz-8W-C7v"/>
+                        <outlet property="progressView" destination="p9Q-72-TwS" id="MMi-Oc-q8z"/>
+                        <outlet property="prossesLable" destination="M37-OL-kZg" id="du0-Zf-kEN"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="1ut-1h-hMX" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="3910" y="-28"/>
         </scene>
-        <!--Image Picker Collection View Controller-->
+        <!--All Photos-->
         <scene sceneID="9V3-Ap-eiy">
             <objects>
                 <collectionViewController id="ZJo-yd-AYm" customClass="ImagePickerCollectionViewController" customModule="RoomvuPhotoCroper" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="yf4-lk-abY">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleAspectFit" dataMode="prototypes" id="yf4-lk-abY">
                         <rect key="frame" x="0.0" y="0.0" width="430" height="932"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="7IN-Vf-imX">
-                            <size key="itemSize" width="150" height="150"/>
-                            <size key="estimatedItemSize" width="130" height="130"/>
+                        <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="j83-3e-W9N">
+                            <size key="itemSize" width="165" height="163"/>
                             <size key="headerReferenceSize" width="0.0" height="0.0"/>
                             <size key="footerReferenceSize" width="0.0" height="0.0"/>
                             <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
                         </collectionViewFlowLayout>
                         <cells>
-                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ImagePickerCell" id="3pn-CR-3eV" customClass="ImagePickerCollectionViewCell" customModule="RoomvuPhotoCroper" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="dSd-Z9-jfW">
-                                    <rect key="frame" x="0.0" y="0.0" width="150" height="150"/>
+                            <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" reuseIdentifier="ImagePickerCell" id="jjs-uJ-m5n" customClass="ImagePickerCollectionViewCell" customModule="RoomvuPhotoCroper" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="165" height="163"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <collectionViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="mpY-ES-OGi">
+                                    <rect key="frame" x="0.0" y="0.0" width="165" height="163"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nLc-4c-X9x">
-                                            <rect key="frame" x="0.0" y="4" width="150" height="142"/>
-                                            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ido-YI-es2">
+                                            <rect key="frame" x="0.0" y="0.0" width="165" height="163"/>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="131" id="b1F-UR-2qu"/>
+                                                <constraint firstAttribute="width" constant="131" id="pQ8-Wz-gRd"/>
+                                            </constraints>
                                             <state key="normal" title="Button"/>
                                             <buttonConfiguration key="configuration" style="plain"/>
                                         </button>
                                     </subviews>
+                                    <constraints>
+                                        <constraint firstAttribute="bottom" secondItem="Ido-YI-es2" secondAttribute="bottom" id="GjM-vK-tRf"/>
+                                        <constraint firstItem="Ido-YI-es2" firstAttribute="leading" secondItem="mpY-ES-OGi" secondAttribute="leading" id="Jf6-uH-Jh9"/>
+                                        <constraint firstItem="Ido-YI-es2" firstAttribute="top" secondItem="mpY-ES-OGi" secondAttribute="top" id="g2D-8h-LbS"/>
+                                        <constraint firstAttribute="trailing" secondItem="Ido-YI-es2" secondAttribute="trailing" id="nI7-x1-yDi"/>
+                                    </constraints>
                                 </collectionViewCellContentView>
+                                <size key="customSize" width="165" height="163"/>
                                 <connections>
-                                    <outlet property="imageButton" destination="nLc-4c-X9x" id="s5Y-wQ-kWC"/>
+                                    <outlet property="imageButton" destination="Ido-YI-es2" id="RKu-Fv-enm"/>
                                 </connections>
                             </collectionViewCell>
                         </cells>
@@ -592,11 +637,14 @@
                             <outlet property="delegate" destination="ZJo-yd-AYm" id="63L-4B-SM5"/>
                         </connections>
                     </collectionView>
-                    <navigationItem key="navigationItem" id="ly4-g8-m8w"/>
+                    <navigationItem key="navigationItem" title="All Photos" id="ly4-g8-m8w"/>
+                    <connections>
+                        <segue destination="g2E-o3-e5j" kind="modal" identifier="imageCropView" id="hM4-Rs-3hw"/>
+                    </connections>
                 </collectionViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="32U-zj-SQE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1880.9302325581396" y="2.5751072961373391"/>
+            <point key="canvasLocation" x="2049.7674418604652" y="-669.52789699570815"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="mj6-JE-FWf">
@@ -617,8 +665,12 @@
             <point key="canvasLocation" x="124.6376811594203" y="3.3482142857142856"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="hM4-Rs-3hw"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="Cofee_Icon" width="50" height="50"/>
+        <image name="Image_sample" width="136.66667175292969" height="170.66667175292969"/>
         <image name="Menu" width="24" height="24"/>
         <image name="Phone_Icon" width="15.666666984558105" height="15.333333015441895"/>
         <image name="Pin_Icon" width="13.666666984558105" height="16.666666030883789"/>
@@ -626,7 +678,6 @@
         <image name="User_Frame" width="125" height="125"/>
         <image name="User_Icon" width="140" height="140"/>
         <image name="User_Plus" width="128" height="128"/>
-        <image name="User_sample.jpg" width="487" height="609"/>
         <image name="X-Close" width="24" height="24"/>
         <systemColor name="darkTextColor">
             <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

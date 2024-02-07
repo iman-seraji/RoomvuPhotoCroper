@@ -12,37 +12,45 @@ import Combine
 
 
 
-class ImagePickerCollectionViewController: UICollectionViewController {
-
-    private let ViewModel = ImagePickerViewModel()
-    private var cancellables: Set<AnyCancellable> = []
+class ImagePickerCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout {
     
-    
+     
+    private var viewModel = ImagePickerViewModel()
+    private var cancellables = Set<AnyCancellable>()
     private var images = [PHAsset]()
-    
+    var selecctedImage :UIImage?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        // Set up the collection view layout
+               if let layout = collectionView.collectionViewLayout as? UICollectionViewFlowLayout {
+                   layout.minimumInteritemSpacing = 0
+                   layout.minimumLineSpacing = 0
+                   
+                   // Calculate the item size based on the collection view's width
+                   let itemWidth = (collectionView.bounds.width) / 3
+                   layout.itemSize = CGSize(width: itemWidth, height: itemWidth) // You can adjust the height as per your requirement
+               }
 
-        loadPhotos()
-    
+        bindViewModel()
     }
     
-    private func loadPhotos(){
-        
-        
-        ViewModel.$photoLibraryImages.sink { [weak self] photoLibraryImages in
-            
-            print(photoLibraryImages)
-            self?.images = photoLibraryImages
-            DispatchQueue.main.async {
-            self?.collectionView.reloadData()
-                           }
-            
-        }.store(in: &cancellables)
-        
-        
-    }
+
+    
+    private func bindViewModel() {
+         viewModel.$photos
+             .receive(on: DispatchQueue.main)
+             .sink { [weak self] photos in
+                 self?.images = photos
+                 self?.collectionView.reloadData()
+                 
+
+             }
+             .store(in: &cancellables)
+     }
+    
+
 
     /*
     // MARK: - Navigation
@@ -74,21 +82,56 @@ class ImagePickerCollectionViewController: UICollectionViewController {
     
         let asset = self.images[indexPath.row]
         let manager = PHImageManager.default()
-        
-        manager.requestImage(for: asset, targetSize: CGSize(width: 500, height: 500), contentMode: .aspectFill, options: nil) {image, _ in
+        // Set the target for your button
+        cell.imageButton.tag = indexPath.item
+              
+              // Add the target for the button
+              cell.imageButton.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
+              
+        manager.requestImage(for: asset, targetSize: CGSize(width: 1000, height: 1000), contentMode: .aspectFit, options: nil) {image, _ in
             
-            DispatchQueue.main.async {
+           
                 
                 cell.imageButton.setImage(image, for: .normal)
                 
-            }
+           
         }
     
         return cell
     }
+ 
+    @objc func buttonTapped(_ sender: UIButton) {
+            let index = sender.tag
+            print("Button tapped in cell at index \(index)")
+        let asset = self.images[index]
+        let manager = PHImageManager.default()
+        manager.requestImage(for: asset, targetSize: CGSize(width: 1000, height: 1000), contentMode: .aspectFill, options: nil) {image, _ in
+            
+           
+                
+            self.selecctedImage = image
+            self.performSegue(withIdentifier: "imageCropView", sender: self)
+           
+        }
+            // Handle button tap here
+        }
     
-
+    
+  
+override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+    if segue.identifier == "imageCropView" {
+   
+        if let destinationVC = segue.destination as? ImageCropViewController {
+            destinationVC.imageOriginal = selecctedImage
+        }
+           
+        
+       
+    }
+}
+ 
     // MARK: UICollectionViewDelegate
+    
 
     /*
     // Uncomment this method to specify if the specified item should be highlighted during tracking

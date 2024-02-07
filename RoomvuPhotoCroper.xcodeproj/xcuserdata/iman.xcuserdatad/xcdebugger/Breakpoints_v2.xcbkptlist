@@ -3,4 +3,86 @@
    uuid = "2406F08D-51E1-44FB-8CA9-B43C0D3E08BC"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "040F4253-9A09-4F11-8C1D-C5C835DC900C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/Network/NetworkManagment.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "90"
+            endingLineNumber = "90"
+            landmarkName = "request(apiAddress:method:parameters:complition:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C9F76D2C-0508-47BB-9650-B42775B5F913"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/Network/NetworkManagment.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "81"
+            endingLineNumber = "81"
+            landmarkName = "createRequest(apiAddress:method:parameters:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6DA7523C-DC6A-4F56-A47D-23470E9C5C08"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/Network/NetworkManagment.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "request(apiAddress:method:parameters:complition:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6DA7523C-DC6A-4F56-A47D-23470E9C5C08 - be0004bb9ce0520f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in RoomvuPhotoCroper.NetworkManagment.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(apiAddress: RoomvuPhotoCroper.ApiInfo, method: RoomvuPhotoCroper.RequestTypes, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, complition: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/Network/NetworkManagment.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "403">
+               </Location>
+               <Location
+                  uuid = "6DA7523C-DC6A-4F56-A47D-23470E9C5C08 - be0004bb9ce0520f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in RoomvuPhotoCroper.NetworkManagment.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(apiAddress: RoomvuPhotoCroper.ApiInfo, method: RoomvuPhotoCroper.RequestTypes, parameters: Swift.Optional&lt;Swift.Dictionary&lt;Swift.String, Any&gt;&gt;, complition: (Swift.Result&lt;&#x3c4;_0_0, Swift.Error&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/Network/NetworkManagment.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "98"
+                  endingLineNumber = "98"
+                  offsetFromSymbolStart = "570">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -1,0 +1,20 @@
+PODS:
+  - Alamofire (5.8.0)
+  - Mantis (2.18.0)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.0)
+  - Mantis (~> 2.18.0)
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - Mantis
+
+SPEC CHECKSUMS:
+  Alamofire: 0e92e751b3e9e66d7982db43919d01f313b8eb91
+  Mantis: 7f0f6e440fd8da2280925bbdea035c44ff60dbea
+
+PODFILE CHECKSUM: 0f057476bc78bac9a9cac7f4d868475a716ccda5
+
+COCOAPODS: 1.11.3

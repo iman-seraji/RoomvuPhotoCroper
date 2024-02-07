@@ -25,7 +25,13 @@ class ImageCropViewController: UIViewController,ImageProcessingDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+        if let recciveImage = imageOriginal{
+            processedImage.image = recciveImage
+
+        }else{
+            processedImage.image = UIImage(named: "Image_sample")
+
+        }
       }
     
     // Image Update Delegate

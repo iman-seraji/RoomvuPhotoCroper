@@ -110,8 +110,8 @@
             filePath = "RoomvuPhotoCroper/ProgressPage/ProgressViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "94"
-            endingLineNumber = "94"
+            startingLineNumber = "97"
+            endingLineNumber = "97"
             landmarkName = "uploadImageWithAPI(image:)"
             landmarkType = "7">
             <Locations>
@@ -222,8 +222,72 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "54"
             endingLineNumber = "54"
-            landmarkName = "ImageCropViewController"
-            landmarkType = "3">
+            landmarkName = "buttonUploadHeadshot(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FDF11896-8890-42C4-8FF4-9C2B4F35E4E0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "126"
+            endingLineNumber = "126"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FDF11896-8890-42C4-8FF4-9C2B4F35E4E0 - 1a37f4d04ff48157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImageCropViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "822">
+               </Location>
+               <Location
+                  uuid = "FDF11896-8890-42C4-8FF4-9C2B4F35E4E0 - 1a37f4d04ff48157"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImageCropViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "126"
+                  endingLineNumber = "126"
+                  offsetFromSymbolStart = "990">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "B57D1969-F2D9-4BAE-9203-51CF88065F19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "didFinishProcessingImage(_:)"
+            landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

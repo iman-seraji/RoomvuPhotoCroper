@@ -124,7 +124,7 @@ class ImageCropViewController: UIViewController,ImageProcessingDelegate {
         if segue.identifier == "progressView" {
        
             if let destinationVC = segue.destination as? ProgressViewController {
-                destinationVC.image = processedImage.image
+                destinationVC.uploadImage = processedImage.image
                 destinationVC.delegate = self // Set the delegate to self
             }
                

@@ -23,16 +23,20 @@ class ProgressViewController: UIViewController {
     @IBOutlet weak var prossesLable: UILabel!
     
     @IBOutlet weak var cofeeImage: UIImageView!
-    var image: UIImage?
+    var uploadImage: UIImage?
     
 
     
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        if let uploadeImage = image{
-            uploadImageWithAPI(image: uploadeImage)
+        
+    
+        if let sendImage = uploadImage {
+            uploadImageWithAPI(image: sendImage)
+
         }
+      
     }
     
   
@@ -59,7 +63,6 @@ class ProgressViewController: UIViewController {
         let parameters: [String: Any] = [
             "image": imageData
         ]
-        
         // Perform the request
         AF.upload(multipartFormData: { multipartFormData in
             for (key, value) in parameters {
@@ -108,8 +111,9 @@ class ProgressViewController: UIViewController {
                                 
                                 if let newImageData = Data(base64Encoded: base64String,options: .ignoreUnknownCharacters){
                                     if  let generatedImage = UIImage(data: newImageData){
-                                        self.delegate?.didFinishProcessingImage(generatedImage)
-                                        self.dismiss(animated: true, completion: nil)
+                                        self.cofeeImage.image = generatedImage
+                                        //self.delegate?.didFinishProcessingImage(generatedImage)
+                                        //self.dismiss(animated: true, completion: nil)
                                     }
                                 }
                             }

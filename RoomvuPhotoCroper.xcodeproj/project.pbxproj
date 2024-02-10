@@ -19,7 +19,6 @@
 		0FA02A8F2B6F7A820045A80C /* CropViewController in Frameworks */ = {isa = PBXBuildFile; productRef = 0FA02A8E2B6F7A820045A80C /* CropViewController */; };
 		0FA02A962B70EB080045A80C /* ImagePickerCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A952B70EB080045A80C /* ImagePickerCollectionViewController.swift */; };
 		0FA02A982B7167480045A80C /* ImagePickerCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A972B7167480045A80C /* ImagePickerCollectionViewCell.swift */; };
-		0FA02A9C2B717A460045A80C /* ImageCropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A9B2B717A460045A80C /* ImageCropViewController.swift */; };
 		0FA02A9E2B71AA020045A80C /* ImagePickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */; };
 		0FA02AA32B71D45E0045A80C /* NetworkManagment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AA22B71D45E0045A80C /* NetworkManagment.swift */; };
 		0FA02AA82B71D50A0045A80C /* AppErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AA72B71D50A0045A80C /* AppErrors.swift */; };
@@ -69,7 +68,6 @@
 		0FA02A7F2B6F76EA0045A80C /* RoomvuPhotoCroperUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoomvuPhotoCroperUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		0FA02A952B70EB080045A80C /* ImagePickerCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewController.swift; sourceTree = "<group>"; };
 		0FA02A972B7167480045A80C /* ImagePickerCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerCollectionViewCell.swift; sourceTree = "<group>"; };
-		0FA02A9B2B717A460045A80C /* ImageCropViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCropViewController.swift; sourceTree = "<group>"; };
 		0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePickerViewModel.swift; sourceTree = "<group>"; };
 		0FA02A9F2B71BCBE0045A80C /* Combine.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Combine.framework; path = System/Library/Frameworks/Combine.framework; sourceTree = SDKROOT; };
 		0FA02AA22B71D45E0045A80C /* NetworkManagment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManagment.swift; sourceTree = "<group>"; };
@@ -146,12 +144,11 @@
 		0FA02A5B2B6F76E70045A80C /* RoomvuPhotoCroper */ = {
 			isa = PBXGroup;
 			children = (
-				0FA02AC92B7710CA0045A80C /* EditHeadShot */,
 				0FA02AAF2B71D63B0045A80C /* Model */,
 				0FA02AA42B71D4D90045A80C /* Fundation */,
 				0FA02AA12B71D4360045A80C /* Network */,
-				0FA02A9A2B717A040045A80C /* ImageCrop */,
 				0FA02AC22B724F860045A80C /* ProgressPage */,
+				0FA02AC92B7710CA0045A80C /* EditHeadShot */,
 				0FA02A992B71675E0045A80C /* ImagePicker */,
 				0FA02A5C2B6F76E70045A80C /* AppDelegate.swift */,
 				0FA02A5E2B6F76E70045A80C /* SceneDelegate.swift */,
@@ -202,14 +199,6 @@
 				0FA02A9D2B71AA020045A80C /* ImagePickerViewModel.swift */,
 			);
 			path = ImagePicker;
-			sourceTree = "<group>";
-		};
-		0FA02A9A2B717A040045A80C /* ImageCrop */ = {
-			isa = PBXGroup;
-			children = (
-				0FA02A9B2B717A460045A80C /* ImageCropViewController.swift */,
-			);
-			path = ImageCrop;
 			sourceTree = "<group>";
 		};
 		0FA02AA12B71D4360045A80C /* Network */ = {
@@ -515,7 +504,6 @@
 			files = (
 				0FA02ACB2B7710F70045A80C /* EditHeadShotViewController.swift in Sources */,
 				0FA02A9E2B71AA020045A80C /* ImagePickerViewModel.swift in Sources */,
-				0FA02A9C2B717A460045A80C /* ImageCropViewController.swift in Sources */,
 				0FA02AAE2B71D6250045A80C /* ApiRequests.swift in Sources */,
 				0FA02AC82B76AE960045A80C /* testViewController.swift in Sources */,
 				0FA02AAA2B71D5660045A80C /* ApiInfo.swift in Sources */,

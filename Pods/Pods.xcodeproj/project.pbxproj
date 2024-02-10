@@ -7,340 +7,160 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		006944C9F8F07665EB248B2E9D58D643 /* CropBoxFreeAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD84B378B42A6DE237EDD0041E63BAC5 /* CropBoxFreeAspectFrameUpdater.swift */; };
-		04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0424FA9C7F089A196BB389CF26C8628 /* CachedResponseHandler.swift */; };
-		079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD3B18E9CA9EC9394022C84EC0428B37 /* Protected.swift */; };
-		09139F424CD4DE32EACE1BE332AAE704 /* SlideRulerPositionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1475BF0B25620A8FDA8D6F847B2381B1 /* SlideRulerPositionHelper.swift */; };
-		0981A498E955228C858A7D9E3FFE13F2 /* RotationDialViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B6C672D645B497A2A1537DA00CF970A /* RotationDialViewModelProtocol.swift */; };
-		0B26AFAA9AF756E8075F66B746C53095 /* RatioSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 944A7869797CD31EA11A14CCF7D6FF3D /* RatioSelector.swift */; };
-		11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78F6DFA5E9B0724E7486F7DDA759953 /* URLRequest+Alamofire.swift */; };
-		1345FC874FB0E3215099FA8864421DFA /* Mantis.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0D6649E9F61BE2A76CCD6E7ECDC607 /* Mantis.swift */; };
-		18730E264BECE6BDF8EBBAE1D08EEB9F /* RotationDialConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2CED9F1DBDF6ADBAC9374EC70B46684 /* RotationDialConfig.swift */; };
-		18905379E73C00BBD6EF33FFBCF8DD6C /* SlideDialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 10262AFEDDFBF9E277B6BEE7BFEFAD43 /* SlideDialViewModel.swift */; };
-		197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE7BA740A650BCF94D2F28B57C4BA223 /* AuthenticationInterceptor.swift */; };
-		1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F1A74884DC743938D086347DDCAB4AB /* RequestInterceptor.swift */; };
-		1CC729F48BB020FED5C408DCAECD2719 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CF9CE64ACE36BF2A24A3389DC06BC1 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m */; };
-		1F0A968C9F7AC307F97696BAA300E393 /* CropMaskProtocal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31D7A387A432B13615AF44C63B3DCE99 /* CropMaskProtocal.swift */; };
-		20655933BB5A6DE3B0170B319F11CD97 /* RotationDialViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD943D9A8259783D1E785CFEF1F9859A /* RotationDialViewModel.swift */; };
-		22006F53353FE2BEB15C46E965ECCB54 /* CropView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F62B277805F89C3B7B008FF4A15B1CD9 /* CropView.swift */; };
-		274FCF9C83796454A122D4F9031A56CA /* SlideDialConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4C616B3E4BBE748D632A79948173BA0 /* SlideDialConfig.swift */; };
-		2756E142BD49BF8928FD007263F04ED9 /* CropMaskViewManagerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2BE1BA99FB5F375CF27AD3DCB04638C0 /* CropMaskViewManagerProtocol.swift */; };
-		282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 02B6E00E8E82AD9069DBBEEEE117E4FB /* Session.swift */; };
-		2C483226F8978572432B4699BC4E3C55 /* ToolbarButtonOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AD71062A893998281B2199EDD916E06 /* ToolbarButtonOptions.swift */; };
-		2E58A0E4C12F5953ACD912211024BE77 /* GeometryHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91CCF339705887ABBC5C7F0E0534EE29 /* GeometryHelper.swift */; };
-		3134D64DCBD22D6FE7E932FA1EBA9194 /* CropViewStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = B58B56578787BEA89CF7D70B18661A43 /* CropViewStatus.swift */; };
-		320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECBF64B906AA6465792976C23EB3647A /* AFError.swift */; };
-		385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512F2CF05731484E405479E231EDF89D /* Combine.swift */; };
-		3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F660844255A24F53ECF8FC6E05A5797A /* Notifications.swift */; };
-		3BF66B952CE77A6FDE275337587FFA98 /* Mantis-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 21C7DEE389D97DCFDFD2AA8A56076656 /* Mantis-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		3D7904E7DB478FCC0F2EE54AC52609F4 /* CropScrollViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA62F90FA4F27908B0D3BE2DA7E3CAE8 /* CropScrollViewProtocol.swift */; };
-		3DDAA10F65E484FF3502167D11585BA8 /* LocalizedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB932985D8ED3E0FE5815C4ABBE3155 /* LocalizedHelper.swift */; };
-		3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E68F35B5A53FB80BFC8128C6E0513E9 /* ResponseSerialization.swift */; };
-		41E5159922633B899D0E9F36E891EA89 /* CropViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97F9B19C392CE6844EC6419FD130721D /* CropViewModel.swift */; };
-		482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A621728F8BDBD696BE8EFBD33CB5E /* ParameterEncoding.swift */; };
-		4931E215054F253A1948EECA8A6383C5 /* CropViewModelProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5FA2E1A18FB47682CA8291B223D342AE /* CropViewModelProtocol.swift */; };
-		49D8EA36E85A083A5DB759FEECB076AA /* RotationDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768D183042C8CE1B30EE51B8AE39C435 /* RotationDial.swift */; };
-		4F0169D0DA637235FA94835C536E3525 /* CropData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D4132EA5E944F4D8D6E8397CECE372B /* CropData.swift */; };
-		4FAF910692411151751493DF76E477AB /* CGAffineTransformExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15BF8F8ADEBDFF6EC820A36FF9D06A97 /* CGAffineTransformExtensions.swift */; };
-		51E2E97C38F8D707C735C3B3AE129649 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2AF461B5B5FD16A4727C071B6BB777 /* HTTPHeaders.swift */; };
-		54D1AA64406CF691322E5D19316D7E57 /* Pods-RoomvuPhotoCroper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C38077555D89E8E9188A44E8198258 /* Pods-RoomvuPhotoCroper-dummy.m */; };
-		561941BD2F0858B43A3202E1FC13990B /* ImageContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C4A0B857ED482B90C3567D1C46809 /* ImageContainer.swift */; };
-		5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8A65934EF4022B55C9ED8D0C9012D5F /* Request.swift */; };
-		624F874C2779DF89E18609D620109986 /* RatioItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3432D0E64465BC929FA2FEE178181114 /* RatioItemView.swift */; };
-		6269CA5CD895FBA6DA92601995C6492F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		633EF1CAC8A0520F3B8862EE90E4B706 /* CropView+UIScrollViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F35415E2D94841A594FBCD3DD9E2AC79 /* CropView+UIScrollViewDelegate.swift */; };
-		6390947636C0B809AAC2EBFC5D4331D1 /* ToolBarButtonImageBuilder+DrawImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B37BFA574FD052D5E73CA49D531E48B0 /* ToolBarButtonImageBuilder+DrawImage.swift */; };
-		643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB6F1FD427B20F138E0AF20AF634DA8A /* RetryPolicy.swift */; };
-		661B70C540B68E9F05678E4A2AF707B6 /* Definition.swift in Sources */ = {isa = PBXBuildFile; fileRef = C97E210469C53ABB37FFE4DF80D6C876 /* Definition.swift */; };
-		67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917EDBCF677F59CE4605716CF2939259 /* URLSessionConfiguration+Alamofire.swift */; };
-		6A0B05682B728A3BB503E97D4AF92A6A /* CropViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C63A89C21BEF0181AD81E3917C9B202F /* CropViewController.swift */; };
+		04A8430BFC619C34E5F4D3878D094380 /* CachedResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77226E8FC7B56CA1068824166848ADBF /* CachedResponseHandler.swift */; };
+		079F0820555C5B86C9FBD5EC6344137F /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60D19AFBBBB00EEE64CE63E5D70649F6 /* Protected.swift */; };
+		0B04E6A33EA027E9F0776632A5E9B5E7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		11CCD832BD537718892C6A216A38490A /* URLRequest+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA0C1B9BA6444238057611BDA7CACFA5 /* URLRequest+Alamofire.swift */; };
+		197457852FC83E905248660B0F930452 /* AuthenticationInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B206CABA3E5C254320AB3AD7135A3CE /* AuthenticationInterceptor.swift */; };
+		1AFD57838680DF58184FF94D14C7F3FF /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38F66307C1CA0F8DA20D1A6B668D1860 /* RequestInterceptor.swift */; };
+		282FCD4EA8B05830E9108690B8CD336B /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2BD68F2EB883212FFD2A289C9C6AFFD /* Session.swift */; };
+		320C0D7A88AA812EFB20016BA1F5D7AE /* AFError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A436FE54641F2D107C7A36EEE579A711 /* AFError.swift */; };
+		385BC4B250B6A6DB8AAAEA77D5B7A46F /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2D2AF8C623656CFD56B345D33E2C372 /* Combine.swift */; };
+		3A59D8FBAF9A54906E3644AC80465AFB /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B82D59AE35645D50D3A84BED8E57BBC /* Notifications.swift */; };
+		3FA127A261BB563409868A0DC21807B2 /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22C5241B5E7FD5A8798EE42B92946C37 /* ResponseSerialization.swift */; };
+		482B74C0548970BB9C095E2D8530E421 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 920D8F2C20208E53D68F47064E2AADAC /* ParameterEncoding.swift */; };
+		529173B31EFCD3D199E79866AFBEC86C /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 888DDD453AE7EBF323FD5C58AFC3C36A /* HTTPHeaders.swift */; };
+		5B92A66A66BD639411C3D839A0F87B0C /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDAE996B4E9D2DB7B306B601909915C7 /* Request.swift */; };
+		643A7AFFB7AEB70B2B9B7E0926055023 /* RetryPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31FF77F272823F291CC1199FF15724F9 /* RetryPolicy.swift */; };
+		67B10FEAA3B7E5387D20E76B1085E94D /* URLSessionConfiguration+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = C748480AB66C4D2CE843052F31C9C0D4 /* URLSessionConfiguration+Alamofire.swift */; };
 		6C065DCB335FBCB1197AB38185C1B9A0 /* Pods-RoomvuPhotoCroperTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 1BE551D0C2A2204BA218A09F7BF2B411 /* Pods-RoomvuPhotoCroperTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6F31A642E34998A35446370FE94392F9 /* CropBoxLockedAspectFrameUpdater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DB03A0A3A3965F688F77E5B63FC4C68 /* CropBoxLockedAspectFrameUpdater.swift */; };
-		732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0740B204FA6ACFDCDA38749B9CFDD93E /* MultipartUpload.swift */; };
-		737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = B086B3767B6780E60F212B37BA24F28A /* MultipartFormData.swift */; };
-		73AC2F3F4FD1539A121DE06A7AE918AE /* Mantis.h in Headers */ = {isa = PBXBuildFile; fileRef = C6C6F20DF93432C763607805763A87EA /* Mantis.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		74DC11D1C0879BF0E37CBAAE28748608 /* MantisLocalizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F2B07CFEDFCA96BD14D6C3390CB1CD7D /* MantisLocalizable.strings */; };
-		75EDC125D74BA659E6E016BC3419FAF5 /* CropDimmingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C333B5C6C3FC8DDF763119133813BF75 /* CropDimmingView.swift */; };
+		732C29255F73EF3D83D49BD4F8FEAA8F /* MultipartUpload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24767B05C71B09A12209F0C3C0CE3CB9 /* MultipartUpload.swift */; };
+		737747B9A98257DB58112C3A23686669 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 592CA37CBFF826891439B792D0D405E6 /* MultipartFormData.swift */; };
 		774368B5803B305FAB072EDAE3E343CB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF3FD18628735AB30CDB82A76C370532 /* ServerTrustEvaluation.swift */; };
-		78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D6D1F62160151F09246567BB3CE790F /* Concurrency.swift */; };
+		77AB6AF4BFC6DE016DA7C057B5799C84 /* ServerTrustEvaluation.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8EC1AD74376CBE8B70B0820F6A611BA /* ServerTrustEvaluation.swift */; };
+		78B1DD1219182494A6AFAD26AAB20AA6 /* Concurrency.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCAC7B7C6D7F8B176EF5F9FB19EC1561 /* Concurrency.swift */; };
 		795403CC26F047CAA36090DB4127F1D9 /* Pods-RoomvuPhotoCroperTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 44E66C4E23C1491076268FC33E1306A3 /* Pods-RoomvuPhotoCroperTests-dummy.m */; };
-		7C8649E35665A681213D02DEE8C49C66 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E929ED316D4E75BD62188E5229C9F4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF56D2E2AE41F40DF97322A05AA5E23E /* OperationQueue+Alamofire.swift */; };
-		81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA7B120F053E686DDCCFEB16D12D61A /* Alamofire.swift */; };
-		82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C73EDB5C1E91C3A9B618F1486E3709 /* EventMonitor.swift */; };
-		838A91C2233ED4C5E244642B59596848 /* CropViewControllerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E353B43392CB5D0BC5526BDAD1342D8 /* CropViewControllerDelegate.swift */; };
-		83D1C303E1445EED117E8DD8C5C774A6 /* RotationCalculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 881E610C3C088F43130F2173EF0FAD4B /* RotationCalculator.swift */; };
-		847A5CEFDCDBC5739CF673E6E4A46BB7 /* Pods-RoomvuPhotoCroper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D8825228B6AC1A6F8DDC87ABF520D5 /* Pods-RoomvuPhotoCroper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8503FD586532BB4319FF7DFD7E67A9F4 /* CropAuxiliaryIndicatorView+Accessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0FAD357B93E3F84F5B8D064972AA9DB /* CropAuxiliaryIndicatorView+Accessibility.swift */; };
-		8A84718E4BFA9D3B2B372EF4409B9BCF /* Orientation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AD063782BC8172B4049B5AC18B8875F /* Orientation.swift */; };
-		8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 279D0077E32EBBBCCFE496EDC9D59E58 /* DispatchQueue+Alamofire.swift */; };
+		7D64BC3E6CAA4AB54EAC0AAADE93F578 /* OperationQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 910E01056C25BE91CB35F0ED509E6324 /* OperationQueue+Alamofire.swift */; };
+		81E6A0FF7F286008345ECFA3A2103FA8 /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 06058CC4DC17D97D816E6291418C188D /* Alamofire.swift */; };
+		82FD97FBBEFE51E2D3B434AF4954FC93 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366002D2484CDB3D84D2680DC45279B7 /* EventMonitor.swift */; };
+		8E698F134A953250D5834C8B83CDAD34 /* DispatchQueue+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 000339D58404A7D349EB962C6BE9E8C9 /* DispatchQueue+Alamofire.swift */; };
 		8E85763AE29BEF0A46EE875B8F069E8E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		8F6F16249AC92AC0BE843F8AB02198D9 /* RatioPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FE37583F36DB77F00BD1375F69A486 /* RatioPresenter.swift */; };
-		99FC198B7E438B6ED56CC23691E31CCB /* CropViewConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FED63814D21BA12BFD0BAAA837516D3 /* CropViewConfig.swift */; };
-		9B9E4EABA851016868AD6D9A55452F99 /* CropAuxiliaryIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 989B537C39D3D2A1244E545C69E132D5 /* CropAuxiliaryIndicatorView.swift */; };
-		9E256C3F1AAF3E33D09C20FF30BB0A98 /* CropMaskViewManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 453F5CF727F833340330103AD84B1F87 /* CropMaskViewManager.swift */; };
-		9E7FF096B11137CB2A855C08427A54B1 /* SlideRuler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0435A3A642BCBB79A9EF118FF7901E1E /* SlideRuler.swift */; };
-		A050C49E9C04E71479456EB614A117D9 /* CropToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 480D8831312F51D2DEA0964F9B4BE458 /* CropToolbar.swift */; };
-		A0C0D3811412D28C7D640B24BB87D3D5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
-		A2EF00653B92E580AA29F13D2D5B365E /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837D7904D157C388B1A0488B434DBF7A /* Global.swift */; };
-		A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32C0CCA7A0E5BF3F473D40488E9F181 /* RequestCompression.swift */; };
-		A76BE9DB14F42B751DC88C95FE0BCF72 /* CropAuxiliaryIndicatorViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23FE2DDBCD6B783B62D76E288157C00D /* CropAuxiliaryIndicatorViewProtocol.swift */; };
-		AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3547FFBC8CAFE2D55B6AF658B55C3DF /* Response.swift */; };
-		AB482FE18A39461B94B6F1EF7ACF5B1D /* RotationDialPlate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5D999F672301B9ED89FBBC399DAF09B /* RotationDialPlate.swift */; };
-		AD318E4D5449FC13AF116CFA8DE84011 /* RotationDial+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E4D2198A057BC1EC1472895484B145 /* RotationDial+Touches.swift */; };
-		B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = EAD4922CD66D886FA15B2D661E17B071 /* ParameterEncoder.swift */; };
-		B330D9317CE5E5F23DE001BBCD47286E /* ToolBarButtonImageBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D7D532A4ED7C89AF752149DB808DEF4 /* ToolBarButtonImageBuilder.swift */; };
-		B5D5E6B09B08C93D2B5A0AC0C5CBCEA9 /* CropWorkbenchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BB73334AA2FA2EDFBCE8D6D058EE0B19 /* CropWorkbenchView.swift */; };
-		BA781A85036884339ECF0591ADE88D0D /* Mantis-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E3C3671771BE41AC8499F43653A0F93 /* Mantis-dummy.m */; };
-		BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70B5E66FB91B14710EE4556E7DF13EB6 /* NetworkReachabilityManager.swift */; };
-		C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06E8FE14F2E173408D97DB10EFF8424 /* StringEncoding+Alamofire.swift */; };
-		C15F1E83D61AD42883049F9C705B8835 /* CropToolbarConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = C376250411BCB7D48AA490733E15A6A1 /* CropToolbarConfig.swift */; };
-		C3FADE6352D9C2E4E3023FA4CB1C9D9B /* CoreGraphicsExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 638A4CEE1C7B2A9830404C990CE9BC79 /* CoreGraphicsExtensions.swift */; };
-		C80D73D49DE71965199B2FB995B01CAC /* CGImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD71D2433B500382AA2210C37A7CF045 /* CGImageExtensions.swift */; };
-		C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFAEE0734A58B81069918912A1990DAF /* URLEncodedFormEncoder.swift */; };
-		D0323E9095027374C9AB646D95F135A2 /* SlideDial.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB98225F52E2EE37D08D8C0FECE5BCFD /* SlideDial.swift */; };
-		D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847F3BB37B15D1FFCDAC77A1DCB4BE83 /* URLConvertible+URLRequestConvertible.swift */; };
-		D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D32F1D0A78BE0265CDA5A1B2026C6C1 /* Alamofire-dummy.m */; };
-		D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 281CD2571E04D4254377B07E891F0239 /* Validation.swift */; };
-		D3AF286E0D0805402518A73FC740C905 /* FixedRatioManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27695F8350B32F288E3C0D9815531FC1 /* FixedRatioManager.swift */; };
+		9D3BFC1BFA02361633A0E014A4645326 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 15E929ED316D4E75BD62188E5229C9F4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A523488C60BF961290D0B1ABB9ADACEC /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FDB01290164DBD601DFFB8BF2E99BB5 /* RequestCompression.swift */; };
+		A5EF1F42BD2F431EA51356E5F80D4478 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */; };
+		AA721ECC2B36AFB7D9FE70C83E6D63F9 /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94F10AF7BA68CD513FE4BD12AC3E9325 /* Response.swift */; };
+		B17D933C8F8BC6A4F91AA620D7D7A870 /* ParameterEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88B1939EB3C8896EB69219C5F7BE0889 /* ParameterEncoder.swift */; };
+		BA4B418A5E3B13C22264ACBAFBCA50FB /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 59CF9CE64ACE36BF2A24A3389DC06BC1 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m */; };
+		BAB17A1C6CAD14B3788973EAF8466C93 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC207F43B02F0FCBF22B2B6ECAB6315 /* NetworkReachabilityManager.swift */; };
+		C04739CBCEE445B66192BFA708655EDF /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79D0CEF5C05F64E7426A7256B88CE035 /* StringEncoding+Alamofire.swift */; };
+		C8269B42DED12AB1F275648D0BD32E45 /* URLEncodedFormEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4726E64C69480A59B59C7FAEADD2FEB4 /* URLEncodedFormEncoder.swift */; };
+		D0560E8E2E5EB407B5D8E0381BF453FA /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5152926B0E533873A8EED86D330834C0 /* URLConvertible+URLRequestConvertible.swift */; };
+		D09FBBADAF7C5C757AA5AB5DFE54BD25 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EA17C4197838FFA052EE7B9CAD9DD8D3 /* Alamofire-dummy.m */; };
+		D368E6F70C5E6998548A72E65F92432D /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40CA3C62864BF74A58495C935CB6F35D /* Validation.swift */; };
 		D7BCBE1EB4A638403C265CE2199EFF1B /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */; };
-		DA7DF5605E4CA6172B7C2A2A82F52EBD /* Angle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C57994893037A963F5715D5CDC9785A /* Angle.swift */; };
-		DC9A9F3EBB96214D2CD795AD82B8B39E /* UIImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = ABCD28DA7F669F5FD0A99BFF90033193 /* UIImageExtensions.swift */; };
-		DF50ABC4963A4AC06ACF50D0CCB58002 /* CropView+Touches.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7527ABA0545F9D698BB791E083C4670E /* CropView+Touches.swift */; };
-		E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16C6C2AC4110DB4907E7C1DD27AC6D0 /* SessionDelegate.swift */; };
-		E6A4004536B8C6049B6B14545DB348E7 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604D30862D40A18C88944B05727FD309 /* Enum.swift */; };
-		E79F4917E1C22C3D7283F05B1792C8E5 /* CropVisualEffectView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36368BB9D2B724E74CF1140C2166AF6A /* CropVisualEffectView.swift */; };
-		EB916D61C1B62F04F1D7945685508B30 /* ImageContainerProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD2AA74A928CADAA0AE800E14F96AAFA /* ImageContainerProtocol.swift */; };
-		ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5A579137873BE17A73B90FC9492E811 /* RedirectHandler.swift */; };
-		ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4B7EE670B49605FD8C0854BB298AAF /* RequestTaskMap.swift */; };
-		EF904E6335C96BA20798312E091C20B7 /* ImageAutoAdjustHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = E90C7A258CC612AC15028FD2B2E1BC3B /* ImageAutoAdjustHelper.swift */; };
-		F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 536282DDF5869DD4AD10A8C2CC460B17 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F22A4D956CDA21D24D130D5C01983891 /* UIViewExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC53D9E1F1F306417D81AA012E69EF3 /* UIViewExtensions.swift */; };
-		F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 474EDA218C6BF749E967980001DDC096 /* AlamofireExtended.swift */; };
-		F4685F94B9A8C4908D68C241C3AFD67D /* RatioOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79DF29DCBA458119058858FA1D61861E /* RatioOptions.swift */; };
-		F5BDDA3480C4282D597EFAE0D52C519F /* CropToolbarProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85E6E43FDCB0740225FDE95831ECC0CB /* CropToolbarProtocol.swift */; };
-		F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF1B5BB7FC52E0B283FB25BCE2578FD5 /* HTTPMethod.swift */; };
-		F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = B53465E16BEBDB8A01D08F694D6AE1ED /* Result+Alamofire.swift */; };
-		F8FDE8D1B9DC98D38B3C762AC5A8F0B8 /* Mantis-MantisResources in Resources */ = {isa = PBXBuildFile; fileRef = E50395ED50F3D5D97E3957A2ED43921F /* Mantis-MantisResources */; };
-		FD6729DDF2D9609296B429348CDA8E00 /* CropViewProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6F26FEBACAF15C4D50DC67CFBE17565 /* CropViewProtocol.swift */; };
-		FEE3DDBB5FC22F612939680D88F82E01 /* RotationDialProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0422081EA2E62CB6A811030BD9E2413E /* RotationDialProtocol.swift */; };
-		FF5513C330EC00982BCE2DA0900E7B0C /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 398EA4CBA91B209B583A7FA0B8A70AB1 /* Config.swift */; };
+		E6251F02EE12804D1B66AE32E716E664 /* SessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C6965E5E3838DCDCC41AC01DA56A7D8D /* SessionDelegate.swift */; };
+		ECE6F23823454A8FDB3F97CE1A7CD182 /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 67B27F0DC0BF19F460FD9E129E69629E /* RedirectHandler.swift */; };
+		ECF2F956B37A4C28B228BC291A57AD6E /* RequestTaskMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 953E276D9A7B3CF40C485A7FB983B8E7 /* RequestTaskMap.swift */; };
+		F038D81F7ABAA15CF03246AD4BF334F7 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F833B93B04081CCB1F8033F4D88CDF4 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F2415AE8678DE2698B7AD7D88B1A5C0F /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1B614FCEF1E81C3ADCF667EBD4DD00A /* AlamofireExtended.swift */; };
+		F66CC47AD425C8D57BD149AFD09C2AFE /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C18C61B77E806893D01FB3110BCFF9F3 /* HTTPMethod.swift */; };
+		F6E94E8EE1CE35F49B9091BE8748587B /* Result+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDA707F68E714E23150CF6B884D329CA /* Result+Alamofire.swift */; };
+		F843C677A43D961DDB0DA3A12FD4E6C9 /* Pods-RoomvuPhotoCroper-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E2D8825228B6AC1A6F8DDC87ABF520D5 /* Pods-RoomvuPhotoCroper-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA87F6D90C993E4EEDC884D1CD05D948 /* Pods-RoomvuPhotoCroper-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C38077555D89E8E9188A44E8198258 /* Pods-RoomvuPhotoCroper-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2942D0B8CA13D0F9AF1B1A8467C74FC1 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B765AE885D71986CD6D5EC0726D8ED31;
-			remoteInfo = Mantis;
-		};
-		6CA8E1D68D549F3475FE9D2514D4378E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2FE76CFB815F0D65B5A0962A62EB8E05;
-			remoteInfo = "Mantis-MantisResources";
-		};
-		AED1EE8EC859ECF2C65D567226409C43 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = B765AE885D71986CD6D5EC0726D8ED31;
-			remoteInfo = Mantis;
-		};
-		EBCB2C93789513847AB785B3E1AD1173 /* PBXContainerItemProxy */ = {
+		D33E7750CC6DB411A6AA33165D0B8FCD /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
 			remoteInfo = Alamofire;
 		};
-		EEA92454E6D5E30F0365975852CED8D2 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
-			remoteInfo = Alamofire;
-		};
-		F4D597A83C7850D1BF57728DB8500156 /* PBXContainerItemProxy */ = {
+		DDF85D85DAFCE69F72583E7BCD4E1D88 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 18778C35D5D6BAFB87D5E11BA4586023;
 			remoteInfo = "Pods-RoomvuPhotoCroper";
 		};
+		EF4951CF27D7BE9CA304DFA75D75BED9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EAAA1AD3A8A1B59AB91319EE40752C6D;
+			remoteInfo = Alamofire;
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		02B6E00E8E82AD9069DBBEEEE117E4FB /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
-		03FE37583F36DB77F00BD1375F69A486 /* RatioPresenter.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioPresenter.swift; path = Sources/Mantis/CropViewController/RatioPresenter.swift; sourceTree = "<group>"; };
-		0422081EA2E62CB6A811030BD9E2413E /* RotationDialProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialProtocol.swift; path = Sources/Mantis/Protocols/RotationDialProtocol.swift; sourceTree = "<group>"; };
-		0435A3A642BCBB79A9EF118FF7901E1E /* SlideRuler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideRuler.swift; path = Sources/Mantis/RotationDial/SlideDial/SlideRuler.swift; sourceTree = "<group>"; };
-		0740B204FA6ACFDCDA38749B9CFDD93E /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		000339D58404A7D349EB962C6BE9E8C9 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		06058CC4DC17D97D816E6291418C188D /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
 		098EB55554D45646A485F6B3A797F594 /* Pods-RoomvuPhotoCroper */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoomvuPhotoCroper"; path = Pods_RoomvuPhotoCroper.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		0B6C672D645B497A2A1537DA00CF970A /* RotationDialViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialViewModelProtocol.swift; path = Sources/Mantis/Protocols/RotationDialViewModelProtocol.swift; sourceTree = "<group>"; };
-		0E353B43392CB5D0BC5526BDAD1342D8 /* CropViewControllerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewControllerDelegate.swift; path = Sources/Mantis/Protocols/CropViewControllerDelegate.swift; sourceTree = "<group>"; };
-		0FA7B120F053E686DDCCFEB16D12D61A /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
-		10262AFEDDFBF9E277B6BEE7BFEFAD43 /* SlideDialViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideDialViewModel.swift; path = Sources/Mantis/RotationDial/SlideDial/SlideDialViewModel.swift; sourceTree = "<group>"; };
-		1475BF0B25620A8FDA8D6F847B2381B1 /* SlideRulerPositionHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideRulerPositionHelper.swift; path = Sources/Mantis/RotationDial/SlideDial/SlideRulerPositionHelper.swift; sourceTree = "<group>"; };
 		154F3B1ED355F256E6A00442A430A096 /* Pods-RoomvuPhotoCroperTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoomvuPhotoCroperTests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		15BF8F8ADEBDFF6EC820A36FF9D06A97 /* CGAffineTransformExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGAffineTransformExtensions.swift; path = Sources/Mantis/Extensions/CGAffineTransformExtensions.swift; sourceTree = "<group>"; };
 		15E929ED316D4E75BD62188E5229C9F4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h"; sourceTree = "<group>"; };
-		16C73EDB5C1E91C3A9B618F1486E3709 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
-		19EBB3F832F908F2770A0C71BEA94911 /* Mantis.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Mantis.modulemap; sourceTree = "<group>"; };
 		1BE551D0C2A2204BA218A09F7BF2B411 /* Pods-RoomvuPhotoCroperTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoomvuPhotoCroperTests-umbrella.h"; sourceTree = "<group>"; };
-		1E2AF461B5B5FD16A4727C071B6BB777 /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
-		1E9182139209D920C9581B237DE9C1EC /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ko.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		1FF2E765856D8686A6A28F42C0664162 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ru.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		21C7DEE389D97DCFDFD2AA8A56076656 /* Mantis-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-umbrella.h"; sourceTree = "<group>"; };
-		22992E70F8A193A8EECB18DE3404B276 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hans.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
-		23FE2DDBCD6B783B62D76E288157C00D /* CropAuxiliaryIndicatorViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropAuxiliaryIndicatorViewProtocol.swift; path = Sources/Mantis/Protocols/CropAuxiliaryIndicatorViewProtocol.swift; sourceTree = "<group>"; };
-		27695F8350B32F288E3C0D9815531FC1 /* FixedRatioManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FixedRatioManager.swift; path = Sources/Mantis/CropViewController/FixedRatioManager.swift; sourceTree = "<group>"; };
-		279D0077E32EBBBCCFE496EDC9D59E58 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		281CD2571E04D4254377B07E891F0239 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
-		295677204BCDDEE499CEA14D48620B64 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = en.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		29D6BD7DB88471E2FE3776A943E8BFA1 /* Mantis-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Mantis-prefix.pch"; sourceTree = "<group>"; };
-		2BE1BA99FB5F375CF27AD3DCB04638C0 /* CropMaskViewManagerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskViewManagerProtocol.swift; path = Sources/Mantis/Protocols/CropMaskViewManagerProtocol.swift; sourceTree = "<group>"; };
-		2C57994893037A963F5715D5CDC9785A /* Angle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Angle.swift; path = Sources/Mantis/Angle.swift; sourceTree = "<group>"; };
-		316D22F8B19400DBC5073973480D1521 /* Mantis */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Mantis; path = Mantis.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		31D7A387A432B13615AF44C63B3DCE99 /* CropMaskProtocal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskProtocal.swift; path = Sources/Mantis/MaskBackground/CropMaskProtocal.swift; sourceTree = "<group>"; };
-		3432D0E64465BC929FA2FEE178181114 /* RatioItemView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioItemView.swift; path = Sources/Mantis/CropViewController/RatioItemView.swift; sourceTree = "<group>"; };
-		36368BB9D2B724E74CF1140C2166AF6A /* CropVisualEffectView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropVisualEffectView.swift; path = Sources/Mantis/MaskBackground/CropVisualEffectView.swift; sourceTree = "<group>"; };
-		398EA4CBA91B209B583A7FA0B8A70AB1 /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = Sources/Mantis/Config.swift; sourceTree = "<group>"; };
-		3ABE27EF50280D10241DCF65E5BB39B2 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
-		3AC53D9E1F1F306417D81AA012E69EF3 /* UIViewExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewExtensions.swift; path = Sources/Mantis/Extensions/UIViewExtensions.swift; sourceTree = "<group>"; };
+		22C5241B5E7FD5A8798EE42B92946C37 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		24767B05C71B09A12209F0C3C0CE3CB9 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/MultipartUpload.swift; sourceTree = "<group>"; };
+		306E2D1B9E4FC953243A0CACF97218A6 /* Alamofire.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.release.xcconfig; sourceTree = "<group>"; };
+		31FF77F272823F291CC1199FF15724F9 /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
+		366002D2484CDB3D84D2680DC45279B7 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/EventMonitor.swift; sourceTree = "<group>"; };
+		38F66307C1CA0F8DA20D1A6B668D1860 /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
 		3CC69B46E1380B7D95198702386AFE09 /* Pods-RoomvuPhotoCroper-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomvuPhotoCroper-frameworks.sh"; sourceTree = "<group>"; };
-		3D124B33B78157D6F8B8271FE058FB72 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "zh-Hant.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
-		3DB03A0A3A3965F688F77E5B63FC4C68 /* CropBoxLockedAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxLockedAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxLockedAspectFrameUpdater.swift; sourceTree = "<group>"; };
-		3E3C4A0B857ED482B90C3567D1C46809 /* ImageContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContainer.swift; path = Sources/Mantis/CropView/ImageContainer.swift; sourceTree = "<group>"; };
-		3F1A74884DC743938D086347DDCAB4AB /* RequestInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestInterceptor.swift; path = Source/RequestInterceptor.swift; sourceTree = "<group>"; };
-		43E4D2198A057BC1EC1472895484B145 /* RotationDial+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "RotationDial+Touches.swift"; path = "Sources/Mantis/RotationDial/RotationDial/RotationDial+Touches.swift"; sourceTree = "<group>"; };
-		44557879884A051B86ED38389EBD7E71 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = es.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
+		40CA3C62864BF74A58495C935CB6F35D /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
 		44E66C4E23C1491076268FC33E1306A3 /* Pods-RoomvuPhotoCroperTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoomvuPhotoCroperTests-dummy.m"; sourceTree = "<group>"; };
-		450A621728F8BDBD696BE8EFBD33CB5E /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
-		453F5CF727F833340330103AD84B1F87 /* CropMaskViewManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropMaskViewManager.swift; path = Sources/Mantis/CropView/CropMaskViewManager.swift; sourceTree = "<group>"; };
 		4703C63B79456FBC140CE29FCD62DB91 /* Pods-RoomvuPhotoCroper-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroper-Info.plist"; sourceTree = "<group>"; };
-		474EDA218C6BF749E967980001DDC096 /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
-		480D8831312F51D2DEA0964F9B4BE458 /* CropToolbar.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbar.swift; path = Sources/Mantis/CropViewController/CropToolbar.swift; sourceTree = "<group>"; };
-		4907307F0509B34BA20228D4FE12323B /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "ko-KR.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
+		4726E64C69480A59B59C7FAEADD2FEB4 /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
 		4ABA223C99CABB2D55BE602F5870DF80 /* Pods-RoomvuPhotoCroper-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroper-acknowledgements.plist"; sourceTree = "<group>"; };
-		4E68F35B5A53FB80BFC8128C6E0513E9 /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
-		512F2CF05731484E405479E231EDF89D /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
-		536282DDF5869DD4AD10A8C2CC460B17 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		4F833B93B04081CCB1F8033F4D88CDF4 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		5152926B0E533873A8EED86D330834C0 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		536ECAA402BCE81B4ED89ED045A0D7EC /* Pods-RoomvuPhotoCroper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroper.release.xcconfig"; sourceTree = "<group>"; };
 		57664E9096D2385F70756D343925AF16 /* Pods-RoomvuPhotoCroper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroper.debug.xcconfig"; sourceTree = "<group>"; };
+		592CA37CBFF826891439B792D0D405E6 /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
 		59CF9CE64ACE36BF2A24A3389DC06BC1 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m"; sourceTree = "<group>"; };
 		5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Alamofire; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5FA2E1A18FB47682CA8291B223D342AE /* CropViewModelProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewModelProtocol.swift; path = Sources/Mantis/Protocols/CropViewModelProtocol.swift; sourceTree = "<group>"; };
-		604D30862D40A18C88944B05727FD309 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = Sources/Mantis/Enum.swift; sourceTree = "<group>"; };
-		638A4CEE1C7B2A9830404C990CE9BC79 /* CoreGraphicsExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreGraphicsExtensions.swift; path = Sources/Mantis/Extensions/CoreGraphicsExtensions.swift; sourceTree = "<group>"; };
+		60D19AFBBBB00EEE64CE63E5D70649F6 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
 		6431C3D64AC6487DF53174205563A04C /* Pods-RoomvuPhotoCroperTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroperTests.release.xcconfig"; sourceTree = "<group>"; };
 		66846088443C65BD5E36DD62B5134EB4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.release.xcconfig"; sourceTree = "<group>"; };
-		695F5046F97DC90766522D90B1987B4D /* Mantis.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.debug.xcconfig; sourceTree = "<group>"; };
+		67B27F0DC0BF19F460FD9E129E69629E /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
 		6AE92A5241D6066655F0FEFB84BF777F /* Pods-RoomvuPhotoCroperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroperTests.debug.xcconfig"; sourceTree = "<group>"; };
-		6D6D1F62160151F09246567BB3CE790F /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
-		6E3C3671771BE41AC8499F43653A0F93 /* Mantis-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Mantis-dummy.m"; sourceTree = "<group>"; };
-		6EFAF003F8394EF20A095D94B1E627AB /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
+		6ED8831F6FF4301FD74775E203143BC4 /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
 		6F662E5524405861C4ACF3178FE5A741 /* Pods-RoomvuPhotoCroper.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoomvuPhotoCroper.modulemap"; sourceTree = "<group>"; };
-		70B5E66FB91B14710EE4556E7DF13EB6 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
-		7149AA3702F463262E7BA87455179991 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = de.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		7527ABA0545F9D698BB791E083C4670E /* CropView+Touches.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+Touches.swift"; path = "Sources/Mantis/CropView/CropView+Touches.swift"; sourceTree = "<group>"; };
-		768D183042C8CE1B30EE51B8AE39C435 /* RotationDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDial.swift; path = Sources/Mantis/RotationDial/RotationDial/RotationDial.swift; sourceTree = "<group>"; };
-		79DF29DCBA458119058858FA1D61861E /* RatioOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioOptions.swift; path = Sources/Mantis/RatioOptions.swift; sourceTree = "<group>"; };
-		7AD71062A893998281B2199EDD916E06 /* ToolbarButtonOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolbarButtonOptions.swift; path = Sources/Mantis/ToolbarButtonOptions.swift; sourceTree = "<group>"; };
-		7D32F1D0A78BE0265CDA5A1B2026C6C1 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
-		7D7D532A4ED7C89AF752149DB808DEF4 /* ToolBarButtonImageBuilder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ToolBarButtonImageBuilder.swift; path = Sources/Mantis/CropViewController/ToolBarButtonImageBuilder.swift; sourceTree = "<group>"; };
-		80D4C036893E7EC627C72C991F9876C7 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = "pt-PT.lproj/MantisLocalizable.strings"; sourceTree = "<group>"; };
-		837D7904D157C388B1A0488B434DBF7A /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Sources/Mantis/Global.swift; sourceTree = "<group>"; };
-		847F3BB37B15D1FFCDAC77A1DCB4BE83 /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
-		85E6E43FDCB0740225FDE95831ECC0CB /* CropToolbarProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbarProtocol.swift; path = Sources/Mantis/Protocols/CropToolbarProtocol.swift; sourceTree = "<group>"; };
-		881E610C3C088F43130F2173EF0FAD4B /* RotationCalculator.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationCalculator.swift; path = Sources/Mantis/RotationDial/RotationDial/RotationCalculator.swift; sourceTree = "<group>"; };
+		740AAA5D9614C4C73D0E5D0E6E1FA9F3 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
+		77226E8FC7B56CA1068824166848ADBF /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
+		79D0CEF5C05F64E7426A7256B88CE035 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
+		7B82D59AE35645D50D3A84BED8E57BBC /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
+		888DDD453AE7EBF323FD5C58AFC3C36A /* HTTPHeaders.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPHeaders.swift; path = Source/HTTPHeaders.swift; sourceTree = "<group>"; };
+		88B1939EB3C8896EB69219C5F7BE0889 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
 		8D3D57353834825F7B52B816066B7789 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
-		917EDBCF677F59CE4605716CF2939259 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
-		91CCF339705887ABBC5C7F0E0534EE29 /* GeometryHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GeometryHelper.swift; path = Sources/Mantis/Helpers/GeometryHelper.swift; sourceTree = "<group>"; };
+		8FDB01290164DBD601DFFB8BF2E99BB5 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/RequestCompression.swift; sourceTree = "<group>"; };
+		910E01056C25BE91CB35F0ED509E6324 /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
+		920D8F2C20208E53D68F47064E2AADAC /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
 		924F9912755217719116E181E2D9DDF0 /* Pods-RoomvuPhotoCroperTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroperTests-acknowledgements.plist"; sourceTree = "<group>"; };
-		944A7869797CD31EA11A14CCF7D6FF3D /* RatioSelector.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RatioSelector.swift; path = Sources/Mantis/CropViewController/RatioSelector.swift; sourceTree = "<group>"; };
-		974595783C0623B556AA1C686AFF4E02 /* Mantis.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Mantis.release.xcconfig; sourceTree = "<group>"; };
-		97F9B19C392CE6844EC6419FD130721D /* CropViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewModel.swift; path = Sources/Mantis/CropView/CropViewModel.swift; sourceTree = "<group>"; };
-		989B537C39D3D2A1244E545C69E132D5 /* CropAuxiliaryIndicatorView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropAuxiliaryIndicatorView.swift; path = Sources/Mantis/CropView/CropAuxiliaryIndicatorView.swift; sourceTree = "<group>"; };
+		94F10AF7BA68CD513FE4BD12AC3E9325 /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		953E276D9A7B3CF40C485A7FB983B8E7 /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
 		9A278674A50BCAC00DE1F1C8F1415931 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		9AD063782BC8172B4049B5AC18B8875F /* Orientation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Orientation.swift; path = Sources/Mantis/Helpers/Orientation.swift; sourceTree = "<group>"; };
-		9D4132EA5E944F4D8D6E8397CECE372B /* CropData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropData.swift; path = Sources/Mantis/CropData.swift; sourceTree = "<group>"; };
+		9B206CABA3E5C254320AB3AD7135A3CE /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		9E4B7EE670B49605FD8C0854BB298AAF /* RequestTaskMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestTaskMap.swift; path = Source/RequestTaskMap.swift; sourceTree = "<group>"; };
-		9FED63814D21BA12BFD0BAAA837516D3 /* CropViewConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewConfig.swift; path = Sources/Mantis/CropViewConfig.swift; sourceTree = "<group>"; };
-		A0424FA9C7F089A196BB389CF26C8628 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		A30A8A60569560DF0B3F71279D0E556B /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist"; sourceTree = "<group>"; };
+		A436FE54641F2D107C7A36EEE579A711 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
 		A44135B594B3B3718CC9F6C3DBD0C5AA /* Pods-RoomvuPhotoCroperTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroperTests-Info.plist"; sourceTree = "<group>"; };
-		A98C4EC2E5A85F0663DC7D4FF8FCDDC8 /* Alamofire-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Alamofire-Info.plist"; sourceTree = "<group>"; };
-		ABCD28DA7F669F5FD0A99BFF90033193 /* UIImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIImageExtensions.swift; path = Sources/Mantis/Extensions/UIImageExtensions.swift; sourceTree = "<group>"; };
-		AD0D6649E9F61BE2A76CCD6E7ECDC607 /* Mantis.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Mantis.swift; path = Sources/Mantis/Mantis.swift; sourceTree = "<group>"; };
-		AD2AA74A928CADAA0AE800E14F96AAFA /* ImageContainerProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageContainerProtocol.swift; path = Sources/Mantis/Protocols/ImageContainerProtocol.swift; sourceTree = "<group>"; };
+		A52D1AFEE03B6011772E5FAE0AC50EEE /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		AD714F718D7CC54F064F15757F78C492 /* Alamofire.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.debug.xcconfig; sourceTree = "<group>"; };
 		AD872CD9AC715681A76761C9FE5F6FBC /* Pods-RoomvuPhotoCroper-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-RoomvuPhotoCroper-acknowledgements.markdown"; sourceTree = "<group>"; };
-		B00FBC23151157BBF7B9D3D20597E6A1 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ar.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		B03A67BC1D9C292773D4BE8E151BDC45 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = ja.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		B086B3767B6780E60F212B37BA24F28A /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
-		B37BFA574FD052D5E73CA49D531E48B0 /* ToolBarButtonImageBuilder+DrawImage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "ToolBarButtonImageBuilder+DrawImage.swift"; path = "Sources/Mantis/CropViewController/ToolBarButtonImageBuilder+DrawImage.swift"; sourceTree = "<group>"; };
-		B53465E16BEBDB8A01D08F694D6AE1ED /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
-		B58B56578787BEA89CF7D70B18661A43 /* CropViewStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewStatus.swift; path = Sources/Mantis/CropView/CropViewStatus.swift; sourceTree = "<group>"; };
+		B1B614FCEF1E81C3ADCF667EBD4DD00A /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/AlamofireExtended.swift; sourceTree = "<group>"; };
+		B2D2AF8C623656CFD56B345D33E2C372 /* Combine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Combine.swift; path = Source/Combine.swift; sourceTree = "<group>"; };
 		B6C38077555D89E8E9188A44E8198258 /* Pods-RoomvuPhotoCroper-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-RoomvuPhotoCroper-dummy.m"; sourceTree = "<group>"; };
-		BB73334AA2FA2EDFBCE8D6D058EE0B19 /* CropWorkbenchView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropWorkbenchView.swift; path = Sources/Mantis/CropView/CropWorkbenchView.swift; sourceTree = "<group>"; };
 		BC60FF1258A3BEAA7DCBA02100DF90BF /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-acknowledgements.plist"; sourceTree = "<group>"; };
-		BCB932985D8ED3E0FE5815C4ABBE3155 /* LocalizedHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LocalizedHelper.swift; path = Sources/Mantis/Helpers/LocalizedHelper.swift; sourceTree = "<group>"; };
+		BDAE996B4E9D2DB7B306B601909915C7 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
 		C0F4D53ED8CCAF8167469DF4D7C38396 /* Pods-RoomvuPhotoCroperTests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoomvuPhotoCroperTests"; path = Pods_RoomvuPhotoCroperTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C127285305F54ECCBFDEA8F38FA854ED /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap"; sourceTree = "<group>"; };
-		C333B5C6C3FC8DDF763119133813BF75 /* CropDimmingView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropDimmingView.swift; path = Sources/Mantis/MaskBackground/CropDimmingView.swift; sourceTree = "<group>"; };
-		C376250411BCB7D48AA490733E15A6A1 /* CropToolbarConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropToolbarConfig.swift; path = Sources/Mantis/CropToolbarConfig.swift; sourceTree = "<group>"; };
-		C4C616B3E4BBE748D632A79948173BA0 /* SlideDialConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideDialConfig.swift; path = Sources/Mantis/RotationDial/SlideDial/SlideDialConfig.swift; sourceTree = "<group>"; };
-		C63A89C21BEF0181AD81E3917C9B202F /* CropViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewController.swift; path = Sources/Mantis/CropViewController/CropViewController.swift; sourceTree = "<group>"; };
-		C6C6F20DF93432C763607805763A87EA /* Mantis.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Mantis.h; path = Sources/Mantis/Mantis.h; sourceTree = "<group>"; };
-		C6F26FEBACAF15C4D50DC67CFBE17565 /* CropViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropViewProtocol.swift; path = Sources/Mantis/Protocols/CropViewProtocol.swift; sourceTree = "<group>"; };
-		C75EF4A1676BDDDFBB4E0A960DB59BAC /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = nl.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		C78F6DFA5E9B0724E7486F7DDA759953 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
-		C864D592D9D9EDC41C7E3E725A238F7B /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
-		C8A65934EF4022B55C9ED8D0C9012D5F /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
-		C97E210469C53ABB37FFE4DF80D6C876 /* Definition.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Definition.swift; path = Sources/Mantis/Definition.swift; sourceTree = "<group>"; };
-		CD71D2433B500382AA2210C37A7CF045 /* CGImageExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CGImageExtensions.swift; path = Sources/Mantis/Extensions/CGImageExtensions.swift; sourceTree = "<group>"; };
-		CD943D9A8259783D1E785CFEF1F9859A /* RotationDialViewModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialViewModel.swift; path = Sources/Mantis/RotationDial/RotationDial/RotationDialViewModel.swift; sourceTree = "<group>"; };
-		CF3FD18628735AB30CDB82A76C370532 /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
-		D32C0CCA7A0E5BF3F473D40488E9F181 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/RequestCompression.swift; sourceTree = "<group>"; };
-		D3547FFBC8CAFE2D55B6AF658B55C3DF /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		C18C61B77E806893D01FB3110BCFF9F3 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
+		C2BD68F2EB883212FFD2A289C9C6AFFD /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Session.swift; sourceTree = "<group>"; };
+		C6965E5E3838DCDCC41AC01DA56A7D8D /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
+		C748480AB66C4D2CE843052F31C9C0D4 /* URLSessionConfiguration+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLSessionConfiguration+Alamofire.swift"; path = "Source/URLSessionConfiguration+Alamofire.swift"; sourceTree = "<group>"; };
 		D8583D904D9FF283FFB7BFAFE88EC2CE /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-frameworks.sh"; sourceTree = "<group>"; };
-		D8BCFE6D436A2548131DFF6F728535EB /* ResourceBundle-MantisResources-Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-MantisResources-Mantis-Info.plist"; sourceTree = "<group>"; };
-		DD3B18E9CA9EC9394022C84EC0428B37 /* Protected.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Protected.swift; path = Source/Protected.swift; sourceTree = "<group>"; };
+		DCAC7B7C6D7F8B176EF5F9FB19EC1561 /* Concurrency.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Concurrency.swift; path = Source/Concurrency.swift; sourceTree = "<group>"; };
+		DDA707F68E714E23150CF6B884D329CA /* Result+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Result+Alamofire.swift"; path = "Source/Result+Alamofire.swift"; sourceTree = "<group>"; };
 		DDCA2B3EE36A83BC5C080DC9C37B86C9 /* Pods-RoomvuPhotoCroperTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-RoomvuPhotoCroperTests.modulemap"; sourceTree = "<group>"; };
-		DF1B5BB7FC52E0B283FB25BCE2578FD5 /* HTTPMethod.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HTTPMethod.swift; path = Source/HTTPMethod.swift; sourceTree = "<group>"; };
-		E0FAD357B93E3F84F5B8D064972AA9DB /* CropAuxiliaryIndicatorView+Accessibility.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropAuxiliaryIndicatorView+Accessibility.swift"; path = "Sources/Mantis/CropView/CropAuxiliaryIndicatorView+Accessibility.swift"; sourceTree = "<group>"; };
-		E16C6C2AC4110DB4907E7C1DD27AC6D0 /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/SessionDelegate.swift; sourceTree = "<group>"; };
-		E2CED9F1DBDF6ADBAC9374EC70B46684 /* RotationDialConfig.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialConfig.swift; path = Sources/Mantis/RotationDial/RotationDial/RotationDialConfig.swift; sourceTree = "<group>"; };
 		E2D8825228B6AC1A6F8DDC87ABF520D5 /* Pods-RoomvuPhotoCroper-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-RoomvuPhotoCroper-umbrella.h"; sourceTree = "<group>"; };
-		E50395ED50F3D5D97E3957A2ED43921F /* Mantis-MantisResources */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = "Mantis-MantisResources"; path = MantisResources.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
-		E5D999F672301B9ED89FBBC399DAF09B /* RotationDialPlate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RotationDialPlate.swift; path = Sources/Mantis/RotationDial/RotationDial/RotationDialPlate.swift; sourceTree = "<group>"; };
-		E6C77DE503B153F475D707D890ACF566 /* Mantis-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Mantis-Info.plist"; sourceTree = "<group>"; };
-		E775A2BED4CF3A6BF26C97C90298D16E /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = it.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		E90C7A258CC612AC15028FD2B2E1BC3B /* ImageAutoAdjustHelper.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ImageAutoAdjustHelper.swift; path = Sources/Mantis/Helpers/ImageAutoAdjustHelper.swift; sourceTree = "<group>"; };
+		E8EC1AD74376CBE8B70B0820F6A611BA /* ServerTrustEvaluation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustEvaluation.swift; path = Source/ServerTrustEvaluation.swift; sourceTree = "<group>"; };
+		EA0C1B9BA6444238057611BDA7CACFA5 /* URLRequest+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLRequest+Alamofire.swift"; path = "Source/URLRequest+Alamofire.swift"; sourceTree = "<group>"; };
+		EA17C4197838FFA052EE7B9CAD9DD8D3 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
 		EA5BF2ACAD6A60D7F4A1A1CB141062C7 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		EA62F90FA4F27908B0D3BE2DA7E3CAE8 /* CropScrollViewProtocol.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropScrollViewProtocol.swift; path = Sources/Mantis/Protocols/CropScrollViewProtocol.swift; sourceTree = "<group>"; };
-		EAD4922CD66D886FA15B2D661E17B071 /* ParameterEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoder.swift; path = Source/ParameterEncoder.swift; sourceTree = "<group>"; };
-		EB6F1FD427B20F138E0AF20AF634DA8A /* RetryPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RetryPolicy.swift; path = Source/RetryPolicy.swift; sourceTree = "<group>"; };
-		ECBF64B906AA6465792976C23EB3647A /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/AFError.swift; sourceTree = "<group>"; };
-		EE7BA740A650BCF94D2F28B57C4BA223 /* AuthenticationInterceptor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AuthenticationInterceptor.swift; path = Source/AuthenticationInterceptor.swift; sourceTree = "<group>"; };
-		F06E8FE14F2E173408D97DB10EFF8424 /* StringEncoding+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "StringEncoding+Alamofire.swift"; path = "Source/StringEncoding+Alamofire.swift"; sourceTree = "<group>"; };
-		F35415E2D94841A594FBCD3DD9E2AC79 /* CropView+UIScrollViewDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CropView+UIScrollViewDelegate.swift"; path = "Sources/Mantis/CropView/CropView+UIScrollViewDelegate.swift"; sourceTree = "<group>"; };
-		F5A579137873BE17A73B90FC9492E811 /* RedirectHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RedirectHandler.swift; path = Source/RedirectHandler.swift; sourceTree = "<group>"; };
-		F62B277805F89C3B7B008FF4A15B1CD9 /* CropView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropView.swift; path = Sources/Mantis/CropView/CropView.swift; sourceTree = "<group>"; };
-		F638587EA0687C12E3E0DFC60D8B0DB9 /* MantisLocalizable.strings */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.strings; name = MantisLocalizable.strings; path = fr.lproj/MantisLocalizable.strings; sourceTree = "<group>"; };
-		F660844255A24F53ECF8FC6E05A5797A /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Notifications.swift; sourceTree = "<group>"; };
-		FB98225F52E2EE37D08D8C0FECE5BCFD /* SlideDial.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SlideDial.swift; path = Sources/Mantis/RotationDial/SlideDial/SlideDial.swift; sourceTree = "<group>"; };
 		FCDAB6DAA78E1275240F21D5EACCFFAB /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests"; path = Pods_RoomvuPhotoCroper_RoomvuPhotoCroperUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		FD84B378B42A6DE237EDD0041E63BAC5 /* CropBoxFreeAspectFrameUpdater.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CropBoxFreeAspectFrameUpdater.swift; path = Sources/Mantis/CropView/CropBoxFreeAspectFrameUpdater.swift; sourceTree = "<group>"; };
-		FE0A18A7AF94A96198A615748132D7C6 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Alamofire.modulemap; sourceTree = "<group>"; };
-		FF56D2E2AE41F40DF97322A05AA5E23E /* OperationQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "OperationQueue+Alamofire.swift"; path = "Source/OperationQueue+Alamofire.swift"; sourceTree = "<group>"; };
-		FFAEE0734A58B81069918912A1990DAF /* URLEncodedFormEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLEncodedFormEncoder.swift; path = Source/URLEncodedFormEncoder.swift; sourceTree = "<group>"; };
+		FEC207F43B02F0FCBF22B2B6ECAB6315 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -353,14 +173,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		616AA36F21DBCF7F5DAE83D62F560B04 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A0C0D3811412D28C7D640B24BB87D3D5 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		68CE8003939A33C22F02F29C527CE11D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -369,26 +181,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		96CE6933CEDFBB022331D71ED59477BB /* Frameworks */ = {
+		93B2B3CC7FE60274AF25CD042C3B12D5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A5EF1F42BD2F431EA51356E5F80D4478 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EAAFBC033EF5B0D450E371324B27F914 /* Frameworks */ = {
+		E13424FF1FF693A3C8EC3E1E6D44E767 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				51E2E97C38F8D707C735C3B3AE129649 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FB0E65B5F188C89C1CCEADDBEBBE30B8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				6269CA5CD895FBA6DA92601995C6492F /* Foundation.framework in Frameworks */,
+				0B04E6A33EA027E9F0776632A5E9B5E7 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -419,81 +224,6 @@
 			path = "Target Support Files/Pods-RoomvuPhotoCroperTests";
 			sourceTree = "<group>";
 		};
-		4732EAC5B29D9F771E06E1E76F29D6AC /* Mantis */ = {
-			isa = PBXGroup;
-			children = (
-				2C57994893037A963F5715D5CDC9785A /* Angle.swift */,
-				15BF8F8ADEBDFF6EC820A36FF9D06A97 /* CGAffineTransformExtensions.swift */,
-				CD71D2433B500382AA2210C37A7CF045 /* CGImageExtensions.swift */,
-				398EA4CBA91B209B583A7FA0B8A70AB1 /* Config.swift */,
-				638A4CEE1C7B2A9830404C990CE9BC79 /* CoreGraphicsExtensions.swift */,
-				989B537C39D3D2A1244E545C69E132D5 /* CropAuxiliaryIndicatorView.swift */,
-				E0FAD357B93E3F84F5B8D064972AA9DB /* CropAuxiliaryIndicatorView+Accessibility.swift */,
-				23FE2DDBCD6B783B62D76E288157C00D /* CropAuxiliaryIndicatorViewProtocol.swift */,
-				FD84B378B42A6DE237EDD0041E63BAC5 /* CropBoxFreeAspectFrameUpdater.swift */,
-				3DB03A0A3A3965F688F77E5B63FC4C68 /* CropBoxLockedAspectFrameUpdater.swift */,
-				9D4132EA5E944F4D8D6E8397CECE372B /* CropData.swift */,
-				C333B5C6C3FC8DDF763119133813BF75 /* CropDimmingView.swift */,
-				31D7A387A432B13615AF44C63B3DCE99 /* CropMaskProtocal.swift */,
-				453F5CF727F833340330103AD84B1F87 /* CropMaskViewManager.swift */,
-				2BE1BA99FB5F375CF27AD3DCB04638C0 /* CropMaskViewManagerProtocol.swift */,
-				EA62F90FA4F27908B0D3BE2DA7E3CAE8 /* CropScrollViewProtocol.swift */,
-				480D8831312F51D2DEA0964F9B4BE458 /* CropToolbar.swift */,
-				C376250411BCB7D48AA490733E15A6A1 /* CropToolbarConfig.swift */,
-				85E6E43FDCB0740225FDE95831ECC0CB /* CropToolbarProtocol.swift */,
-				F62B277805F89C3B7B008FF4A15B1CD9 /* CropView.swift */,
-				7527ABA0545F9D698BB791E083C4670E /* CropView+Touches.swift */,
-				F35415E2D94841A594FBCD3DD9E2AC79 /* CropView+UIScrollViewDelegate.swift */,
-				9FED63814D21BA12BFD0BAAA837516D3 /* CropViewConfig.swift */,
-				C63A89C21BEF0181AD81E3917C9B202F /* CropViewController.swift */,
-				0E353B43392CB5D0BC5526BDAD1342D8 /* CropViewControllerDelegate.swift */,
-				97F9B19C392CE6844EC6419FD130721D /* CropViewModel.swift */,
-				5FA2E1A18FB47682CA8291B223D342AE /* CropViewModelProtocol.swift */,
-				C6F26FEBACAF15C4D50DC67CFBE17565 /* CropViewProtocol.swift */,
-				B58B56578787BEA89CF7D70B18661A43 /* CropViewStatus.swift */,
-				36368BB9D2B724E74CF1140C2166AF6A /* CropVisualEffectView.swift */,
-				BB73334AA2FA2EDFBCE8D6D058EE0B19 /* CropWorkbenchView.swift */,
-				C97E210469C53ABB37FFE4DF80D6C876 /* Definition.swift */,
-				604D30862D40A18C88944B05727FD309 /* Enum.swift */,
-				27695F8350B32F288E3C0D9815531FC1 /* FixedRatioManager.swift */,
-				91CCF339705887ABBC5C7F0E0534EE29 /* GeometryHelper.swift */,
-				837D7904D157C388B1A0488B434DBF7A /* Global.swift */,
-				E90C7A258CC612AC15028FD2B2E1BC3B /* ImageAutoAdjustHelper.swift */,
-				3E3C4A0B857ED482B90C3567D1C46809 /* ImageContainer.swift */,
-				AD2AA74A928CADAA0AE800E14F96AAFA /* ImageContainerProtocol.swift */,
-				BCB932985D8ED3E0FE5815C4ABBE3155 /* LocalizedHelper.swift */,
-				C6C6F20DF93432C763607805763A87EA /* Mantis.h */,
-				AD0D6649E9F61BE2A76CCD6E7ECDC607 /* Mantis.swift */,
-				9AD063782BC8172B4049B5AC18B8875F /* Orientation.swift */,
-				3432D0E64465BC929FA2FEE178181114 /* RatioItemView.swift */,
-				79DF29DCBA458119058858FA1D61861E /* RatioOptions.swift */,
-				03FE37583F36DB77F00BD1375F69A486 /* RatioPresenter.swift */,
-				944A7869797CD31EA11A14CCF7D6FF3D /* RatioSelector.swift */,
-				881E610C3C088F43130F2173EF0FAD4B /* RotationCalculator.swift */,
-				768D183042C8CE1B30EE51B8AE39C435 /* RotationDial.swift */,
-				43E4D2198A057BC1EC1472895484B145 /* RotationDial+Touches.swift */,
-				E2CED9F1DBDF6ADBAC9374EC70B46684 /* RotationDialConfig.swift */,
-				E5D999F672301B9ED89FBBC399DAF09B /* RotationDialPlate.swift */,
-				0422081EA2E62CB6A811030BD9E2413E /* RotationDialProtocol.swift */,
-				CD943D9A8259783D1E785CFEF1F9859A /* RotationDialViewModel.swift */,
-				0B6C672D645B497A2A1537DA00CF970A /* RotationDialViewModelProtocol.swift */,
-				FB98225F52E2EE37D08D8C0FECE5BCFD /* SlideDial.swift */,
-				C4C616B3E4BBE748D632A79948173BA0 /* SlideDialConfig.swift */,
-				10262AFEDDFBF9E277B6BEE7BFEFAD43 /* SlideDialViewModel.swift */,
-				0435A3A642BCBB79A9EF118FF7901E1E /* SlideRuler.swift */,
-				1475BF0B25620A8FDA8D6F847B2381B1 /* SlideRulerPositionHelper.swift */,
-				7D7D532A4ED7C89AF752149DB808DEF4 /* ToolBarButtonImageBuilder.swift */,
-				B37BFA574FD052D5E73CA49D531E48B0 /* ToolBarButtonImageBuilder+DrawImage.swift */,
-				7AD71062A893998281B2199EDD916E06 /* ToolbarButtonOptions.swift */,
-				ABCD28DA7F669F5FD0A99BFF90033193 /* UIImageExtensions.swift */,
-				3AC53D9E1F1F306417D81AA012E69EF3 /* UIViewExtensions.swift */,
-				E25165CE2C43BA34E5D7E2E2F98EEA88 /* Resources */,
-				5C3F196843BEED9070DA3376B04B966B /* Support Files */,
-			);
-			name = Mantis;
-			path = Mantis;
-			sourceTree = "<group>";
-		};
 		4DC524EE43AE2011211734B7F928F348 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests */ = {
 			isa = PBXGroup;
 			children = (
@@ -511,20 +241,27 @@
 			path = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests";
 			sourceTree = "<group>";
 		};
-		5C3F196843BEED9070DA3376B04B966B /* Support Files */ = {
+		5859CCC0ABE736D54D7BFD670A82F169 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				19EBB3F832F908F2770A0C71BEA94911 /* Mantis.modulemap */,
-				6E3C3671771BE41AC8499F43653A0F93 /* Mantis-dummy.m */,
-				E6C77DE503B153F475D707D890ACF566 /* Mantis-Info.plist */,
-				29D6BD7DB88471E2FE3776A943E8BFA1 /* Mantis-prefix.pch */,
-				21C7DEE389D97DCFDFD2AA8A56076656 /* Mantis-umbrella.h */,
-				695F5046F97DC90766522D90B1987B4D /* Mantis.debug.xcconfig */,
-				974595783C0623B556AA1C686AFF4E02 /* Mantis.release.xcconfig */,
-				D8BCFE6D436A2548131DFF6F728535EB /* ResourceBundle-MantisResources-Mantis-Info.plist */,
+				E4DBDEEA84D01EDB41FB547B1154D346 /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		5F92C9B9F679FE7DF64E95279E5DB79F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				A52D1AFEE03B6011772E5FAE0AC50EEE /* Alamofire.modulemap */,
+				EA17C4197838FFA052EE7B9CAD9DD8D3 /* Alamofire-dummy.m */,
+				740AAA5D9614C4C73D0E5D0E6E1FA9F3 /* Alamofire-Info.plist */,
+				6ED8831F6FF4301FD74775E203143BC4 /* Alamofire-prefix.pch */,
+				4F833B93B04081CCB1F8033F4D88CDF4 /* Alamofire-umbrella.h */,
+				AD714F718D7CC54F064F15757F78C492 /* Alamofire.debug.xcconfig */,
+				306E2D1B9E4FC953243A0CACF97218A6 /* Alamofire.release.xcconfig */,
 			);
 			name = "Support Files";
-			path = "../Target Support Files/Mantis";
+			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		61C8CC330A5CA84DA2F5F1D32AB07069 /* iOS */ = {
@@ -534,76 +271,6 @@
 				FD0CE05D5D076B1B5190EE5DF97FD54E /* Foundation.framework */,
 			);
 			name = iOS;
-			sourceTree = "<group>";
-		};
-		73C88776C210173D0E3AE7220CECCA60 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				94E3FA8FD2E01839A6E32A94C1A7DF4D /* Alamofire */,
-				4732EAC5B29D9F771E06E1E76F29D6AC /* Mantis */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		94E3FA8FD2E01839A6E32A94C1A7DF4D /* Alamofire */ = {
-			isa = PBXGroup;
-			children = (
-				ECBF64B906AA6465792976C23EB3647A /* AFError.swift */,
-				0FA7B120F053E686DDCCFEB16D12D61A /* Alamofire.swift */,
-				474EDA218C6BF749E967980001DDC096 /* AlamofireExtended.swift */,
-				EE7BA740A650BCF94D2F28B57C4BA223 /* AuthenticationInterceptor.swift */,
-				A0424FA9C7F089A196BB389CF26C8628 /* CachedResponseHandler.swift */,
-				512F2CF05731484E405479E231EDF89D /* Combine.swift */,
-				6D6D1F62160151F09246567BB3CE790F /* Concurrency.swift */,
-				279D0077E32EBBBCCFE496EDC9D59E58 /* DispatchQueue+Alamofire.swift */,
-				16C73EDB5C1E91C3A9B618F1486E3709 /* EventMonitor.swift */,
-				1E2AF461B5B5FD16A4727C071B6BB777 /* HTTPHeaders.swift */,
-				DF1B5BB7FC52E0B283FB25BCE2578FD5 /* HTTPMethod.swift */,
-				B086B3767B6780E60F212B37BA24F28A /* MultipartFormData.swift */,
-				0740B204FA6ACFDCDA38749B9CFDD93E /* MultipartUpload.swift */,
-				70B5E66FB91B14710EE4556E7DF13EB6 /* NetworkReachabilityManager.swift */,
-				F660844255A24F53ECF8FC6E05A5797A /* Notifications.swift */,
-				FF56D2E2AE41F40DF97322A05AA5E23E /* OperationQueue+Alamofire.swift */,
-				EAD4922CD66D886FA15B2D661E17B071 /* ParameterEncoder.swift */,
-				450A621728F8BDBD696BE8EFBD33CB5E /* ParameterEncoding.swift */,
-				DD3B18E9CA9EC9394022C84EC0428B37 /* Protected.swift */,
-				F5A579137873BE17A73B90FC9492E811 /* RedirectHandler.swift */,
-				C8A65934EF4022B55C9ED8D0C9012D5F /* Request.swift */,
-				D32C0CCA7A0E5BF3F473D40488E9F181 /* RequestCompression.swift */,
-				3F1A74884DC743938D086347DDCAB4AB /* RequestInterceptor.swift */,
-				9E4B7EE670B49605FD8C0854BB298AAF /* RequestTaskMap.swift */,
-				D3547FFBC8CAFE2D55B6AF658B55C3DF /* Response.swift */,
-				4E68F35B5A53FB80BFC8128C6E0513E9 /* ResponseSerialization.swift */,
-				B53465E16BEBDB8A01D08F694D6AE1ED /* Result+Alamofire.swift */,
-				EB6F1FD427B20F138E0AF20AF634DA8A /* RetryPolicy.swift */,
-				CF3FD18628735AB30CDB82A76C370532 /* ServerTrustEvaluation.swift */,
-				02B6E00E8E82AD9069DBBEEEE117E4FB /* Session.swift */,
-				E16C6C2AC4110DB4907E7C1DD27AC6D0 /* SessionDelegate.swift */,
-				F06E8FE14F2E173408D97DB10EFF8424 /* StringEncoding+Alamofire.swift */,
-				847F3BB37B15D1FFCDAC77A1DCB4BE83 /* URLConvertible+URLRequestConvertible.swift */,
-				FFAEE0734A58B81069918912A1990DAF /* URLEncodedFormEncoder.swift */,
-				C78F6DFA5E9B0724E7486F7DDA759953 /* URLRequest+Alamofire.swift */,
-				917EDBCF677F59CE4605716CF2939259 /* URLSessionConfiguration+Alamofire.swift */,
-				281CD2571E04D4254377B07E891F0239 /* Validation.swift */,
-				A5AD5CE0EA173105F052B4FA0F8720D2 /* Support Files */,
-			);
-			name = Alamofire;
-			path = Alamofire;
-			sourceTree = "<group>";
-		};
-		A5AD5CE0EA173105F052B4FA0F8720D2 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FE0A18A7AF94A96198A615748132D7C6 /* Alamofire.modulemap */,
-				7D32F1D0A78BE0265CDA5A1B2026C6C1 /* Alamofire-dummy.m */,
-				A98C4EC2E5A85F0663DC7D4FF8FCDDC8 /* Alamofire-Info.plist */,
-				C864D592D9D9EDC41C7E3E725A238F7B /* Alamofire-prefix.pch */,
-				536282DDF5869DD4AD10A8C2CC460B17 /* Alamofire-umbrella.h */,
-				6EFAF003F8394EF20A095D94B1E627AB /* Alamofire.debug.xcconfig */,
-				3ABE27EF50280D10241DCF65E5BB39B2 /* Alamofire.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Alamofire";
 			sourceTree = "<group>";
 		};
 		B773DD6370698197F8B496CBEEAC7269 /* Pods-RoomvuPhotoCroper */ = {
@@ -628,8 +295,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
-				73C88776C210173D0E3AE7220CECCA60 /* Pods */,
-				DE9C0D3AA2387C804BFD2BE63B215B27 /* Products */,
+				5859CCC0ABE736D54D7BFD670A82F169 /* Pods */,
+				F073C4ABF435D24D447DE25E314DDF3F /* Products */,
 				D1C38672BABC4BB8E204A95120FA4F9B /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -644,12 +311,56 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		DE9C0D3AA2387C804BFD2BE63B215B27 /* Products */ = {
+		E4DBDEEA84D01EDB41FB547B1154D346 /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				A436FE54641F2D107C7A36EEE579A711 /* AFError.swift */,
+				06058CC4DC17D97D816E6291418C188D /* Alamofire.swift */,
+				B1B614FCEF1E81C3ADCF667EBD4DD00A /* AlamofireExtended.swift */,
+				9B206CABA3E5C254320AB3AD7135A3CE /* AuthenticationInterceptor.swift */,
+				77226E8FC7B56CA1068824166848ADBF /* CachedResponseHandler.swift */,
+				B2D2AF8C623656CFD56B345D33E2C372 /* Combine.swift */,
+				DCAC7B7C6D7F8B176EF5F9FB19EC1561 /* Concurrency.swift */,
+				000339D58404A7D349EB962C6BE9E8C9 /* DispatchQueue+Alamofire.swift */,
+				366002D2484CDB3D84D2680DC45279B7 /* EventMonitor.swift */,
+				888DDD453AE7EBF323FD5C58AFC3C36A /* HTTPHeaders.swift */,
+				C18C61B77E806893D01FB3110BCFF9F3 /* HTTPMethod.swift */,
+				592CA37CBFF826891439B792D0D405E6 /* MultipartFormData.swift */,
+				24767B05C71B09A12209F0C3C0CE3CB9 /* MultipartUpload.swift */,
+				FEC207F43B02F0FCBF22B2B6ECAB6315 /* NetworkReachabilityManager.swift */,
+				7B82D59AE35645D50D3A84BED8E57BBC /* Notifications.swift */,
+				910E01056C25BE91CB35F0ED509E6324 /* OperationQueue+Alamofire.swift */,
+				88B1939EB3C8896EB69219C5F7BE0889 /* ParameterEncoder.swift */,
+				920D8F2C20208E53D68F47064E2AADAC /* ParameterEncoding.swift */,
+				60D19AFBBBB00EEE64CE63E5D70649F6 /* Protected.swift */,
+				67B27F0DC0BF19F460FD9E129E69629E /* RedirectHandler.swift */,
+				BDAE996B4E9D2DB7B306B601909915C7 /* Request.swift */,
+				8FDB01290164DBD601DFFB8BF2E99BB5 /* RequestCompression.swift */,
+				38F66307C1CA0F8DA20D1A6B668D1860 /* RequestInterceptor.swift */,
+				953E276D9A7B3CF40C485A7FB983B8E7 /* RequestTaskMap.swift */,
+				94F10AF7BA68CD513FE4BD12AC3E9325 /* Response.swift */,
+				22C5241B5E7FD5A8798EE42B92946C37 /* ResponseSerialization.swift */,
+				DDA707F68E714E23150CF6B884D329CA /* Result+Alamofire.swift */,
+				31FF77F272823F291CC1199FF15724F9 /* RetryPolicy.swift */,
+				E8EC1AD74376CBE8B70B0820F6A611BA /* ServerTrustEvaluation.swift */,
+				C2BD68F2EB883212FFD2A289C9C6AFFD /* Session.swift */,
+				C6965E5E3838DCDCC41AC01DA56A7D8D /* SessionDelegate.swift */,
+				79D0CEF5C05F64E7426A7256B88CE035 /* StringEncoding+Alamofire.swift */,
+				5152926B0E533873A8EED86D330834C0 /* URLConvertible+URLRequestConvertible.swift */,
+				4726E64C69480A59B59C7FAEADD2FEB4 /* URLEncodedFormEncoder.swift */,
+				EA0C1B9BA6444238057611BDA7CACFA5 /* URLRequest+Alamofire.swift */,
+				C748480AB66C4D2CE843052F31C9C0D4 /* URLSessionConfiguration+Alamofire.swift */,
+				40CA3C62864BF74A58495C935CB6F35D /* Validation.swift */,
+				5F92C9B9F679FE7DF64E95279E5DB79F /* Support Files */,
+			);
+			name = Alamofire;
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+		F073C4ABF435D24D447DE25E314DDF3F /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				5D797E9A5C5782CE845840781FA1CC81 /* Alamofire */,
-				316D22F8B19400DBC5073973480D1521 /* Mantis */,
-				E50395ED50F3D5D97E3957A2ED43921F /* Mantis-MantisResources */,
 				098EB55554D45646A485F6B3A797F594 /* Pods-RoomvuPhotoCroper */,
 				FCDAB6DAA78E1275240F21D5EACCFFAB /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests */,
 				C0F4D53ED8CCAF8167469DF4D7C38396 /* Pods-RoomvuPhotoCroperTests */,
@@ -657,30 +368,14 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		E25165CE2C43BA34E5D7E2E2F98EEA88 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				F2B07CFEDFCA96BD14D6C3390CB1CD7D /* MantisLocalizable.strings */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		47898E505760276824ADF317C83D1CB7 /* Headers */ = {
+		46868438F0B75C5226E0D3996CD9F2E3 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7C8649E35665A681213D02DEE8C49C66 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		50A5A072163DEDF96235EC17D2FE6512 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				847A5CEFDCDBC5739CF673E6E4A46BB7 /* Pods-RoomvuPhotoCroper-umbrella.h in Headers */,
+				9D3BFC1BFA02361633A0E014A4645326 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -692,12 +387,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B879C74BFE709B0F88CEE8AB598CD755 /* Headers */ = {
+		C498246DD2B04B93C0AFC68F2C728810 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				73AC2F3F4FD1539A121DE06A7AE918AE /* Mantis.h in Headers */,
-				3BF66B952CE77A6FDE275337587FFA98 /* Mantis-umbrella.h in Headers */,
+				F843C677A43D961DDB0DA3A12FD4E6C9 /* Pods-RoomvuPhotoCroper-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -714,18 +408,17 @@
 /* Begin PBXNativeTarget section */
 		0CAC640A9F9E3064DA79742336707E63 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 98431BA3EB878D08B75604CE7B723A78 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests" */;
+			buildConfigurationList = DA93D3804BB17AE728A183AD137B0AE0 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests" */;
 			buildPhases = (
-				47898E505760276824ADF317C83D1CB7 /* Headers */,
-				3F76D6523D65DD37F8FEE1DED6768DC8 /* Sources */,
-				FB0E65B5F188C89C1CCEADDBEBBE30B8 /* Frameworks */,
-				3127519CDD1A6BF3BED23CB83582B4BC /* Resources */,
+				46868438F0B75C5226E0D3996CD9F2E3 /* Headers */,
+				F2809464551C538ABCE0C07C14DB0F00 /* Sources */,
+				E13424FF1FF693A3C8EC3E1E6D44E767 /* Frameworks */,
+				423AAE5EBF3C7DF2C5EB77B232626F83 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				87F646E9F8D92B5090CF01BF99B32BE1 /* PBXTargetDependency */,
-				157F5F23F9E0F03F4D7061C1C86C7740 /* PBXTargetDependency */,
+				9000A0E5826B43F8E5A8CB2BFBCFC6E4 /* PBXTargetDependency */,
 			);
 			name = "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests";
 			productName = Pods_RoomvuPhotoCroper_RoomvuPhotoCroperUITests;
@@ -734,58 +427,21 @@
 		};
 		18778C35D5D6BAFB87D5E11BA4586023 /* Pods-RoomvuPhotoCroper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3180C15AAC0E549D5128D6DA23F82640 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper" */;
+			buildConfigurationList = 108EAEBADD988070BB8C295A159741C1 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper" */;
 			buildPhases = (
-				50A5A072163DEDF96235EC17D2FE6512 /* Headers */,
-				23674361BD8120310CFEAB54821FDF8A /* Sources */,
-				616AA36F21DBCF7F5DAE83D62F560B04 /* Frameworks */,
-				33EC614AFAA76E1B883DFA5208AE4F4C /* Resources */,
+				C498246DD2B04B93C0AFC68F2C728810 /* Headers */,
+				C976C892B9A60222DBD598E0F509B4A0 /* Sources */,
+				93B2B3CC7FE60274AF25CD042C3B12D5 /* Frameworks */,
+				8F53086DE2FC5E8BB4CF0F4F09DB0F49 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D5BFFC202A5E1BD46CB6F981247A49DF /* PBXTargetDependency */,
-				13ADF1631AB0E6C1E83EC54862769A71 /* PBXTargetDependency */,
+				A3E33A3693B158FB368C140EC184993A /* PBXTargetDependency */,
 			);
 			name = "Pods-RoomvuPhotoCroper";
 			productName = Pods_RoomvuPhotoCroper;
 			productReference = 098EB55554D45646A485F6B3A797F594 /* Pods-RoomvuPhotoCroper */;
-			productType = "com.apple.product-type.framework";
-		};
-		2FE76CFB815F0D65B5A0962A62EB8E05 /* Mantis-MantisResources */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8E3742C5F96DE03055F8125ADDFBBA25 /* Build configuration list for PBXNativeTarget "Mantis-MantisResources" */;
-			buildPhases = (
-				76A8575E62236052CD0A208C36180F75 /* Sources */,
-				96CE6933CEDFBB022331D71ED59477BB /* Frameworks */,
-				D58482935CA65ACB07A7890AF7DEED84 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "Mantis-MantisResources";
-			productName = MantisResources;
-			productReference = E50395ED50F3D5D97E3957A2ED43921F /* Mantis-MantisResources */;
-			productType = "com.apple.product-type.bundle";
-		};
-		B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1A294507A28EDFD1A4FC1E3680AD7796 /* Build configuration list for PBXNativeTarget "Mantis" */;
-			buildPhases = (
-				B879C74BFE709B0F88CEE8AB598CD755 /* Headers */,
-				C8CC81E20CE05C51F9F6C0D8C6DBB748 /* Sources */,
-				EAAFBC033EF5B0D450E371324B27F914 /* Frameworks */,
-				0FF2E6BC3BA4452234E1DEFEBF5F1D69 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				C44EE7FDE261C5C6C3F3B7A4FD4BD0CE /* PBXTargetDependency */,
-			);
-			name = Mantis;
-			productName = Mantis;
-			productReference = 316D22F8B19400DBC5073973480D1521 /* Mantis */;
 			productType = "com.apple.product-type.framework";
 		};
 		BD72B0F9E5601A87DCE4A0F551DFEAE2 /* Pods-RoomvuPhotoCroperTests */ = {
@@ -800,7 +456,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				4DC701D8A2C737670CD1ED23C7366C91 /* PBXTargetDependency */,
+				5ECA18EC8FE50B7C98706D79F9FD2744 /* PBXTargetDependency */,
 			);
 			name = "Pods-RoomvuPhotoCroperTests";
 			productName = Pods_RoomvuPhotoCroperTests;
@@ -840,29 +496,14 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				Base,
-				ar,
-				de,
 				en,
-				es,
-				fr,
-				it,
-				ja,
-				ko,
-				"ko-KR",
-				nl,
-				"pt-PT",
-				ru,
-				"zh-Hans",
-				"zh-Hant",
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = DE9C0D3AA2387C804BFD2BE63B215B27 /* Products */;
+			productRefGroup = F073C4ABF435D24D447DE25E314DDF3F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */,
-				B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */,
-				2FE76CFB815F0D65B5A0962A62EB8E05 /* Mantis-MantisResources */,
 				18778C35D5D6BAFB87D5E11BA4586023 /* Pods-RoomvuPhotoCroper */,
 				0CAC640A9F9E3064DA79742336707E63 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests */,
 				BD72B0F9E5601A87DCE4A0F551DFEAE2 /* Pods-RoomvuPhotoCroperTests */,
@@ -871,22 +512,7 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		0FF2E6BC3BA4452234E1DEFEBF5F1D69 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F8FDE8D1B9DC98D38B3C762AC5A8F0B8 /* Mantis-MantisResources in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		3127519CDD1A6BF3BED23CB83582B4BC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		33EC614AFAA76E1B883DFA5208AE4F4C /* Resources */ = {
+		423AAE5EBF3C7DF2C5EB77B232626F83 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -900,11 +526,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D58482935CA65ACB07A7890AF7DEED84 /* Resources */ = {
+		8F53086DE2FC5E8BB4CF0F4F09DB0F49 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				74DC11D1C0879BF0E37CBAAE28748608 /* MantisLocalizable.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -918,14 +543,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		23674361BD8120310CFEAB54821FDF8A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				54D1AA64406CF691322E5D19316D7E57 /* Pods-RoomvuPhotoCroper-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		277C3B3F937C6D40D2B777A164FAB89D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -971,14 +588,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3F76D6523D65DD37F8FEE1DED6768DC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CC729F48BB020FED5C408DCAECD2719 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		4E518D576B04B70D4088934B8EA43209 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -987,152 +596,121 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		76A8575E62236052CD0A208C36180F75 /* Sources */ = {
+		C976C892B9A60222DBD598E0F509B4A0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA87F6D90C993E4EEDC884D1CD05D948 /* Pods-RoomvuPhotoCroper-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C8CC81E20CE05C51F9F6C0D8C6DBB748 /* Sources */ = {
+		F2809464551C538ABCE0C07C14DB0F00 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA7DF5605E4CA6172B7C2A2A82F52EBD /* Angle.swift in Sources */,
-				4FAF910692411151751493DF76E477AB /* CGAffineTransformExtensions.swift in Sources */,
-				C80D73D49DE71965199B2FB995B01CAC /* CGImageExtensions.swift in Sources */,
-				FF5513C330EC00982BCE2DA0900E7B0C /* Config.swift in Sources */,
-				C3FADE6352D9C2E4E3023FA4CB1C9D9B /* CoreGraphicsExtensions.swift in Sources */,
-				9B9E4EABA851016868AD6D9A55452F99 /* CropAuxiliaryIndicatorView.swift in Sources */,
-				8503FD586532BB4319FF7DFD7E67A9F4 /* CropAuxiliaryIndicatorView+Accessibility.swift in Sources */,
-				A76BE9DB14F42B751DC88C95FE0BCF72 /* CropAuxiliaryIndicatorViewProtocol.swift in Sources */,
-				006944C9F8F07665EB248B2E9D58D643 /* CropBoxFreeAspectFrameUpdater.swift in Sources */,
-				6F31A642E34998A35446370FE94392F9 /* CropBoxLockedAspectFrameUpdater.swift in Sources */,
-				4F0169D0DA637235FA94835C536E3525 /* CropData.swift in Sources */,
-				75EDC125D74BA659E6E016BC3419FAF5 /* CropDimmingView.swift in Sources */,
-				1F0A968C9F7AC307F97696BAA300E393 /* CropMaskProtocal.swift in Sources */,
-				9E256C3F1AAF3E33D09C20FF30BB0A98 /* CropMaskViewManager.swift in Sources */,
-				2756E142BD49BF8928FD007263F04ED9 /* CropMaskViewManagerProtocol.swift in Sources */,
-				3D7904E7DB478FCC0F2EE54AC52609F4 /* CropScrollViewProtocol.swift in Sources */,
-				A050C49E9C04E71479456EB614A117D9 /* CropToolbar.swift in Sources */,
-				C15F1E83D61AD42883049F9C705B8835 /* CropToolbarConfig.swift in Sources */,
-				F5BDDA3480C4282D597EFAE0D52C519F /* CropToolbarProtocol.swift in Sources */,
-				22006F53353FE2BEB15C46E965ECCB54 /* CropView.swift in Sources */,
-				DF50ABC4963A4AC06ACF50D0CCB58002 /* CropView+Touches.swift in Sources */,
-				633EF1CAC8A0520F3B8862EE90E4B706 /* CropView+UIScrollViewDelegate.swift in Sources */,
-				99FC198B7E438B6ED56CC23691E31CCB /* CropViewConfig.swift in Sources */,
-				6A0B05682B728A3BB503E97D4AF92A6A /* CropViewController.swift in Sources */,
-				838A91C2233ED4C5E244642B59596848 /* CropViewControllerDelegate.swift in Sources */,
-				41E5159922633B899D0E9F36E891EA89 /* CropViewModel.swift in Sources */,
-				4931E215054F253A1948EECA8A6383C5 /* CropViewModelProtocol.swift in Sources */,
-				FD6729DDF2D9609296B429348CDA8E00 /* CropViewProtocol.swift in Sources */,
-				3134D64DCBD22D6FE7E932FA1EBA9194 /* CropViewStatus.swift in Sources */,
-				E79F4917E1C22C3D7283F05B1792C8E5 /* CropVisualEffectView.swift in Sources */,
-				B5D5E6B09B08C93D2B5A0AC0C5CBCEA9 /* CropWorkbenchView.swift in Sources */,
-				661B70C540B68E9F05678E4A2AF707B6 /* Definition.swift in Sources */,
-				E6A4004536B8C6049B6B14545DB348E7 /* Enum.swift in Sources */,
-				D3AF286E0D0805402518A73FC740C905 /* FixedRatioManager.swift in Sources */,
-				2E58A0E4C12F5953ACD912211024BE77 /* GeometryHelper.swift in Sources */,
-				A2EF00653B92E580AA29F13D2D5B365E /* Global.swift in Sources */,
-				EF904E6335C96BA20798312E091C20B7 /* ImageAutoAdjustHelper.swift in Sources */,
-				561941BD2F0858B43A3202E1FC13990B /* ImageContainer.swift in Sources */,
-				EB916D61C1B62F04F1D7945685508B30 /* ImageContainerProtocol.swift in Sources */,
-				3DDAA10F65E484FF3502167D11585BA8 /* LocalizedHelper.swift in Sources */,
-				1345FC874FB0E3215099FA8864421DFA /* Mantis.swift in Sources */,
-				BA781A85036884339ECF0591ADE88D0D /* Mantis-dummy.m in Sources */,
-				8A84718E4BFA9D3B2B372EF4409B9BCF /* Orientation.swift in Sources */,
-				624F874C2779DF89E18609D620109986 /* RatioItemView.swift in Sources */,
-				F4685F94B9A8C4908D68C241C3AFD67D /* RatioOptions.swift in Sources */,
-				8F6F16249AC92AC0BE843F8AB02198D9 /* RatioPresenter.swift in Sources */,
-				0B26AFAA9AF756E8075F66B746C53095 /* RatioSelector.swift in Sources */,
-				83D1C303E1445EED117E8DD8C5C774A6 /* RotationCalculator.swift in Sources */,
-				49D8EA36E85A083A5DB759FEECB076AA /* RotationDial.swift in Sources */,
-				AD318E4D5449FC13AF116CFA8DE84011 /* RotationDial+Touches.swift in Sources */,
-				18730E264BECE6BDF8EBBAE1D08EEB9F /* RotationDialConfig.swift in Sources */,
-				AB482FE18A39461B94B6F1EF7ACF5B1D /* RotationDialPlate.swift in Sources */,
-				FEE3DDBB5FC22F612939680D88F82E01 /* RotationDialProtocol.swift in Sources */,
-				20655933BB5A6DE3B0170B319F11CD97 /* RotationDialViewModel.swift in Sources */,
-				0981A498E955228C858A7D9E3FFE13F2 /* RotationDialViewModelProtocol.swift in Sources */,
-				D0323E9095027374C9AB646D95F135A2 /* SlideDial.swift in Sources */,
-				274FCF9C83796454A122D4F9031A56CA /* SlideDialConfig.swift in Sources */,
-				18905379E73C00BBD6EF33FFBCF8DD6C /* SlideDialViewModel.swift in Sources */,
-				9E7FF096B11137CB2A855C08427A54B1 /* SlideRuler.swift in Sources */,
-				09139F424CD4DE32EACE1BE332AAE704 /* SlideRulerPositionHelper.swift in Sources */,
-				B330D9317CE5E5F23DE001BBCD47286E /* ToolBarButtonImageBuilder.swift in Sources */,
-				6390947636C0B809AAC2EBFC5D4331D1 /* ToolBarButtonImageBuilder+DrawImage.swift in Sources */,
-				2C483226F8978572432B4699BC4E3C55 /* ToolbarButtonOptions.swift in Sources */,
-				DC9A9F3EBB96214D2CD795AD82B8B39E /* UIImageExtensions.swift in Sources */,
-				F22A4D956CDA21D24D130D5C01983891 /* UIViewExtensions.swift in Sources */,
+				BA4B418A5E3B13C22264ACBAFBCA50FB /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		13ADF1631AB0E6C1E83EC54862769A71 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mantis;
-			target = B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */;
-			targetProxy = 2942D0B8CA13D0F9AF1B1A8467C74FC1 /* PBXContainerItemProxy */;
-		};
-		157F5F23F9E0F03F4D7061C1C86C7740 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = Mantis;
-			target = B765AE885D71986CD6D5EC0726D8ED31 /* Mantis */;
-			targetProxy = AED1EE8EC859ECF2C65D567226409C43 /* PBXContainerItemProxy */;
-		};
-		4DC701D8A2C737670CD1ED23C7366C91 /* PBXTargetDependency */ = {
+		5ECA18EC8FE50B7C98706D79F9FD2744 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-RoomvuPhotoCroper";
 			target = 18778C35D5D6BAFB87D5E11BA4586023 /* Pods-RoomvuPhotoCroper */;
-			targetProxy = F4D597A83C7850D1BF57728DB8500156 /* PBXContainerItemProxy */;
+			targetProxy = DDF85D85DAFCE69F72583E7BCD4E1D88 /* PBXContainerItemProxy */;
 		};
-		87F646E9F8D92B5090CF01BF99B32BE1 /* PBXTargetDependency */ = {
+		9000A0E5826B43F8E5A8CB2BFBCFC6E4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = EEA92454E6D5E30F0365975852CED8D2 /* PBXContainerItemProxy */;
+			targetProxy = EF4951CF27D7BE9CA304DFA75D75BED9 /* PBXContainerItemProxy */;
 		};
-		C44EE7FDE261C5C6C3F3B7A4FD4BD0CE /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Mantis-MantisResources";
-			target = 2FE76CFB815F0D65B5A0962A62EB8E05 /* Mantis-MantisResources */;
-			targetProxy = 6CA8E1D68D549F3475FE9D2514D4378E /* PBXContainerItemProxy */;
-		};
-		D5BFFC202A5E1BD46CB6F981247A49DF /* PBXTargetDependency */ = {
+		A3E33A3693B158FB368C140EC184993A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Alamofire;
 			target = EAAA1AD3A8A1B59AB91319EE40752C6D /* Alamofire */;
-			targetProxy = EBCB2C93789513847AB785B3E1AD1173 /* PBXContainerItemProxy */;
+			targetProxy = D33E7750CC6DB411A6AA33165D0B8FCD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
-/* Begin PBXVariantGroup section */
-		F2B07CFEDFCA96BD14D6C3390CB1CD7D /* MantisLocalizable.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B00FBC23151157BBF7B9D3D20597E6A1 /* MantisLocalizable.strings */,
-				7149AA3702F463262E7BA87455179991 /* MantisLocalizable.strings */,
-				295677204BCDDEE499CEA14D48620B64 /* MantisLocalizable.strings */,
-				44557879884A051B86ED38389EBD7E71 /* MantisLocalizable.strings */,
-				F638587EA0687C12E3E0DFC60D8B0DB9 /* MantisLocalizable.strings */,
-				E775A2BED4CF3A6BF26C97C90298D16E /* MantisLocalizable.strings */,
-				B03A67BC1D9C292773D4BE8E151BDC45 /* MantisLocalizable.strings */,
-				4907307F0509B34BA20228D4FE12323B /* MantisLocalizable.strings */,
-				1E9182139209D920C9581B237DE9C1EC /* MantisLocalizable.strings */,
-				C75EF4A1676BDDDFBB4E0A960DB59BAC /* MantisLocalizable.strings */,
-				80D4C036893E7EC627C72C991F9876C7 /* MantisLocalizable.strings */,
-				1FF2E765856D8686A6A28F42C0664162 /* MantisLocalizable.strings */,
-				22992E70F8A193A8EECB18DE3404B276 /* MantisLocalizable.strings */,
-				3D124B33B78157D6F8B8271FE058FB72 /* MantisLocalizable.strings */,
-			);
-			name = MantisLocalizable.strings;
-			path = Sources/Mantis/Resources;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
 /* Begin XCBuildConfiguration section */
+		0063ED07F74CB87EA7D3F20155C21963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 66846088443C65BD5E36DD62B5134EB4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		01F43DE172CF3D01EE39BC356621428B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 57664E9096D2385F70756D343925AF16 /* Pods-RoomvuPhotoCroper.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
 		032504F201C69275441D32C68CCD1F0E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -1194,79 +772,6 @@
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
-		};
-		1E5ABCC132EA41D1B968D4185C20A002 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 66846088443C65BD5E36DD62B5134EB4 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		2BC951EEDF55A6592F03EFAACA3AEA4B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 695F5046F97DC90766522D90B1987B4D /* Mantis.debug.xcconfig */;
-			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
-				PRODUCT_MODULE_NAME = Mantis;
-				PRODUCT_NAME = Mantis;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
 		};
 		48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1372,22 +877,6 @@
 			};
 			name = Release;
 		};
-		8A51A14E97F2DD71E6BAD5804AFEEC6A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 974595783C0623B556AA1C686AFF4E02 /* Mantis.release.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
-				IBSC_MODULE = Mantis;
-				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-MantisResources-Mantis-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = MantisResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
 		93DCD09BAAC53432E3C12996A382433F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6AE92A5241D6066655F0FEFB84BF777F /* Pods-RoomvuPhotoCroperTests.debug.xcconfig */;
@@ -1425,10 +914,11 @@
 			};
 			name = Debug;
 		};
-		B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */ = {
+		B31144DACFC91C491E7DB1C9F6B7A8A9 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6EFAF003F8394EF20A095D94B1E627AB /* Alamofire.debug.xcconfig */;
+			baseConfigurationReference = EA5BF2ACAD6A60D7F4A1A1CB141062C7 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -1438,29 +928,30 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
-				PRODUCT_MODULE_NAME = Alamofire;
-				PRODUCT_NAME = Alamofire;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		BDBECE3EBD2C42E55F97916175A73F6D /* Release */ = {
+		B6E44E3C537DE9DDBCF973CC04C7EA4F /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 536ECAA402BCE81B4ED89ED045A0D7EC /* Pods-RoomvuPhotoCroper.release.xcconfig */;
 			buildSettings = {
@@ -1498,9 +989,9 @@
 			};
 			name = Release;
 		};
-		DEB53A12E932552F5E55428B6DD46681 /* Release */ = {
+		B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 974595783C0623B556AA1C686AFF4E02 /* Mantis.release.xcconfig */;
+			baseConfigurationReference = AD714F718D7CC54F064F15757F78C492 /* Alamofire.debug.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1511,113 +1002,22 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/Mantis/Mantis-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/Mantis/Mantis-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Alamofire-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/Mantis/Mantis.modulemap";
-				PRODUCT_MODULE_NAME = Mantis;
-				PRODUCT_NAME = Mantis;
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				PRODUCT_MODULE_NAME = Alamofire;
+				PRODUCT_NAME = Alamofire;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		E64E23CA10C6BB0ACBFE3D05716865D0 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 57664E9096D2385F70756D343925AF16 /* Pods-RoomvuPhotoCroper.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E96A38370B37F9EFD88E2E86B60C8B82 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 695F5046F97DC90766522D90B1987B4D /* Mantis.debug.xcconfig */;
-			buildSettings = {
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Mantis";
-				IBSC_MODULE = Mantis;
-				INFOPLIST_FILE = "Target Support Files/Mantis/ResourceBundle-MantisResources-Mantis-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
-				PRODUCT_NAME = MantisResources;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		ECFD15D486995732AC215598F3D81E07 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA5BF2ACAD6A60D7F4A1A1CB141062C7 /* Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests/Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
@@ -1626,7 +1026,7 @@
 		};
 		F5F3306F2C09AB4B623C805497E28D51 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3ABE27EF50280D10241DCF65E5BB39B2 /* Alamofire.release.xcconfig */;
+			baseConfigurationReference = 306E2D1B9E4FC953243A0CACF97218A6 /* Alamofire.release.xcconfig */;
 			buildSettings = {
 				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1663,20 +1063,11 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1A294507A28EDFD1A4FC1E3680AD7796 /* Build configuration list for PBXNativeTarget "Mantis" */ = {
+		108EAEBADD988070BB8C295A159741C1 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2BC951EEDF55A6592F03EFAACA3AEA4B /* Debug */,
-				DEB53A12E932552F5E55428B6DD46681 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		3180C15AAC0E549D5128D6DA23F82640 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E64E23CA10C6BB0ACBFE3D05716865D0 /* Debug */,
-				BDBECE3EBD2C42E55F97916175A73F6D /* Release */,
+				01F43DE172CF3D01EE39BC356621428B /* Debug */,
+				B6E44E3C537DE9DDBCF973CC04C7EA4F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1686,24 +1077,6 @@
 			buildConfigurations = (
 				48F67AB1E5DBE79CCF2F86C75296AB01 /* Debug */,
 				032504F201C69275441D32C68CCD1F0E /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		8E3742C5F96DE03055F8125ADDFBBA25 /* Build configuration list for PBXNativeTarget "Mantis-MantisResources" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E96A38370B37F9EFD88E2E86B60C8B82 /* Debug */,
-				8A51A14E97F2DD71E6BAD5804AFEEC6A /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		98431BA3EB878D08B75604CE7B723A78 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				ECFD15D486995732AC215598F3D81E07 /* Debug */,
-				1E5ABCC132EA41D1B968D4185C20A002 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1722,6 +1095,15 @@
 			buildConfigurations = (
 				B7D9E7CD650F798EC835C67DACFEBC4F /* Debug */,
 				F5F3306F2C09AB4B623C805497E28D51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DA93D3804BB17AE728A183AD137B0AE0 /* Build configuration list for PBXNativeTarget "Pods-RoomvuPhotoCroper-RoomvuPhotoCroperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B31144DACFC91C491E7DB1C9F6B7A8A9 /* Debug */,
+				0063ED07F74CB87EA7D3F20155C21963 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

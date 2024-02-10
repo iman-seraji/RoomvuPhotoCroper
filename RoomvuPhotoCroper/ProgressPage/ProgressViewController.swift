@@ -33,6 +33,7 @@ class ProgressViewController: UIViewController {
         
     
         if let sendImage = uploadImage {
+            
             uploadImageWithAPI(image: sendImage)
 
         }

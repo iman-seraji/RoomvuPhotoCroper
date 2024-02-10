@@ -111,9 +111,9 @@ class ProgressViewController: UIViewController {
                                 
                                 if let newImageData = Data(base64Encoded: base64String,options: .ignoreUnknownCharacters){
                                     if  let generatedImage = UIImage(data: newImageData){
-                                        self.cofeeImage.image = generatedImage
-                                        //self.delegate?.didFinishProcessingImage(generatedImage)
-                                        //self.dismiss(animated: true, completion: nil)
+                                       // self.cofeeImage.image = generatedImage
+                                        self.delegate?.didFinishProcessingImage(generatedImage)
+                                        self.dismiss(animated: true, completion: nil)
                                     }
                                 }
                             }

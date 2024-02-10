@@ -28,6 +28,8 @@
 		0FA02AAE2B71D6250045A80C /* ApiRequests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AAD2B71D6250045A80C /* ApiRequests.swift */; };
 		0FA02AB12B71D66D0045A80C /* ApiResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AB02B71D66D0045A80C /* ApiResponse.swift */; };
 		0FA02AC42B724FC60045A80C /* ProgressViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AC32B724FC60045A80C /* ProgressViewController.swift */; };
+		0FA02AC82B76AE960045A80C /* testViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02AC72B76AE960045A80C /* testViewController.swift */; };
+		0FA02ACB2B7710F70045A80C /* EditHeadShotViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FA02ACA2B7710F70045A80C /* EditHeadShotViewController.swift */; };
 		5FE554AD7C01D5593C7981C4 /* Pods_RoomvuPhotoCroper_RoomvuPhotoCroperUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D22A3654BCB92D3BBE2F649C /* Pods_RoomvuPhotoCroper_RoomvuPhotoCroperUITests.framework */; };
 		AF5848C73E3D9D26030E687E /* Pods_RoomvuPhotoCroper.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D643A9CEECA4506F03A4EAF /* Pods_RoomvuPhotoCroper.framework */; };
 		C7DA0F6AE3DDCA3F1C0AFF0B /* Pods_RoomvuPhotoCroperTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 80518DADAD0F28DD1FDB3A4A /* Pods_RoomvuPhotoCroperTests.framework */; };
@@ -78,6 +80,8 @@
 		0FA02AB02B71D66D0045A80C /* ApiResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiResponse.swift; sourceTree = "<group>"; };
 		0FA02AB42B71ED600045A80C /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0FA02AC32B724FC60045A80C /* ProgressViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressViewController.swift; sourceTree = "<group>"; };
+		0FA02AC72B76AE960045A80C /* testViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testViewController.swift; sourceTree = "<group>"; };
+		0FA02ACA2B7710F70045A80C /* EditHeadShotViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditHeadShotViewController.swift; sourceTree = "<group>"; };
 		188F35815672FFDDEF683F31 /* Pods-RoomvuPhotoCroperTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomvuPhotoCroperTests.debug.xcconfig"; path = "Target Support Files/Pods-RoomvuPhotoCroperTests/Pods-RoomvuPhotoCroperTests.debug.xcconfig"; sourceTree = "<group>"; };
 		2D060D1BC83878818DAB3AEF /* Pods-RoomvuPhotoCroper.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomvuPhotoCroper.debug.xcconfig"; path = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper.debug.xcconfig"; sourceTree = "<group>"; };
 		2EFAD6D338455E3617AC189F /* Pods-RoomvuPhotoCroper.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RoomvuPhotoCroper.release.xcconfig"; path = "Target Support Files/Pods-RoomvuPhotoCroper/Pods-RoomvuPhotoCroper.release.xcconfig"; sourceTree = "<group>"; };
@@ -142,6 +146,7 @@
 		0FA02A5B2B6F76E70045A80C /* RoomvuPhotoCroper */ = {
 			isa = PBXGroup;
 			children = (
+				0FA02AC92B7710CA0045A80C /* EditHeadShot */,
 				0FA02AAF2B71D63B0045A80C /* Model */,
 				0FA02AA42B71D4D90045A80C /* Fundation */,
 				0FA02AA12B71D4360045A80C /* Network */,
@@ -155,6 +160,7 @@
 				0FA02A652B6F76E90045A80C /* Assets.xcassets */,
 				0FA02A672B6F76E90045A80C /* LaunchScreen.storyboard */,
 				0FA02A6A2B6F76E90045A80C /* Info.plist */,
+				0FA02AC72B76AE960045A80C /* testViewController.swift */,
 			);
 			path = RoomvuPhotoCroper;
 			sourceTree = "<group>";
@@ -239,6 +245,14 @@
 				0FA02AC32B724FC60045A80C /* ProgressViewController.swift */,
 			);
 			path = ProgressPage;
+			sourceTree = "<group>";
+		};
+		0FA02AC92B7710CA0045A80C /* EditHeadShot */ = {
+			isa = PBXGroup;
+			children = (
+				0FA02ACA2B7710F70045A80C /* EditHeadShotViewController.swift */,
+			);
+			path = EditHeadShot;
 			sourceTree = "<group>";
 		};
 		2E0DAAFEA36B059BDF657F21 /* Pods */ = {
@@ -499,9 +513,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0FA02ACB2B7710F70045A80C /* EditHeadShotViewController.swift in Sources */,
 				0FA02A9E2B71AA020045A80C /* ImagePickerViewModel.swift in Sources */,
 				0FA02A9C2B717A460045A80C /* ImageCropViewController.swift in Sources */,
 				0FA02AAE2B71D6250045A80C /* ApiRequests.swift in Sources */,
+				0FA02AC82B76AE960045A80C /* testViewController.swift in Sources */,
 				0FA02AAA2B71D5660045A80C /* ApiInfo.swift in Sources */,
 				0FA02A612B6F76E70045A80C /* ViewController.swift in Sources */,
 				0FA02AB12B71D66D0045A80C /* ApiResponse.swift in Sources */,
@@ -698,6 +714,8 @@
 				DEVELOPMENT_TEAM = AGLXVEGXHY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomvuPhotoCroper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomvuPhoto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Roomvu requies access to photo library!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -728,6 +746,8 @@
 				DEVELOPMENT_TEAM = AGLXVEGXHY;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = RoomvuPhotoCroper/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = RoomvuPhoto;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.business";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Roomvu requies access to photo library!";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;

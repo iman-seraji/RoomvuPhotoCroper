@@ -88,7 +88,7 @@ class ImagePickerCollectionViewController: UICollectionViewController,UICollecti
               // Add the target for the button
               cell.imageButton.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
               
-        manager.requestImage(for: asset, targetSize: CGSize(width: 1000, height: 1000), contentMode: .aspectFit, options: nil) {image, _ in
+        manager.requestImage(for: asset, targetSize: CGSize(width: 500, height: 500), contentMode: .aspectFit, options: nil) {image, _ in
             
            
                 
@@ -105,7 +105,7 @@ class ImagePickerCollectionViewController: UICollectionViewController,UICollecti
             print("Button tapped in cell at index \(index)")
         let asset = self.images[index]
         let manager = PHImageManager.default()
-        manager.requestImage(for: asset, targetSize: CGSize(width: 1000, height: 1000), contentMode: .aspectFill, options: nil) {image, _ in
+        manager.requestImage(for: asset, targetSize: CGSize(width: 500, height: 500), contentMode: .default, options: nil) {image, _ in
             
            
                 
@@ -121,7 +121,7 @@ class ImagePickerCollectionViewController: UICollectionViewController,UICollecti
 override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
     if segue.identifier == "imageCropView" {
    
-        if let destinationVC = segue.destination as? ImageCropViewController {
+        if let destinationVC = segue.destination as? EditHeadShotViewController {
             destinationVC.imageOriginal = selecctedImage
         }
            

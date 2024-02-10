@@ -220,8 +220,8 @@
             filePath = "RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "buttonUploadHeadshot(_:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -236,8 +236,8 @@
             filePath = "RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "132"
-            endingLineNumber = "132"
+            startingLineNumber = "170"
+            endingLineNumber = "170"
             landmarkName = "prepare(for:sender:)"
             landmarkType = "7">
             <Locations>
@@ -277,17 +277,176 @@
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "B57D1969-F2D9-4BAE-9203-51CF88065F19"
-            shouldBeEnabled = "No"
+            uuid = "6E09D47F-B498-459F-A92D-E9F5BC50891B"
+            shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "didFinishProcessingImage(_:)"
+            startingLineNumber = "130"
+            endingLineNumber = "130"
+            landmarkName = "scaleImage(_:scale:)"
             landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "6E09D47F-B498-459F-A92D-E9F5BC50891B - b2fbf2a6bfe307de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImageCropViewController.scaleImage(_: __C.UIImage, scale: CoreGraphics.CGFloat) -&gt; __C.UIImage"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "236">
+               </Location>
+               <Location
+                  uuid = "6E09D47F-B498-459F-A92D-E9F5BC50891B - b2fbf2a6bfe307de"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImageCropViewController.scaleImage(_: __C.UIImage, scale: CoreGraphics.CGFloat) -&gt; __C.UIImage"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "123"
+                  endingLineNumber = "123"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "6E09D47F-B498-459F-A92D-E9F5BC50891B - b2fbf2a6bfe304f5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImageCropViewController.scaleImage(_: __C.UIImage, scale: CoreGraphics.CGFloat) -&gt; __C.UIImage"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImageCrop/ImageCropViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "130"
+                  endingLineNumber = "130"
+                  offsetFromSymbolStart = "146">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9B741BBB-2660-48EC-B22C-F4D31820583D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/EditHeadShot/EditHeadShotViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "zoomSliderValueChanged(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "12EBAAF3-F1C1-4FC7-B5CA-39643EE8E7AC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/EditHeadShot/EditHeadShotViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "27"
+            endingLineNumber = "27"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "12EBAAF3-F1C1-4FC7-B5CA-39643EE8E7AC - 8723b8195cacec70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.EditHeadShotViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/EditHeadShot/EditHeadShotViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "146">
+               </Location>
+               <Location
+                  uuid = "12EBAAF3-F1C1-4FC7-B5CA-39643EE8E7AC - 8723b8195cacec70"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.EditHeadShotViewController.viewDidLoad() -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/EditHeadShot/EditHeadShotViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "201">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "97C0BE58-0E7D-4078-8921-531CCE47BF2D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "RoomvuPhotoCroper/ImagePicker/ImagePickerCollectionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "124"
+            endingLineNumber = "124"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "97C0BE58-0E7D-4078-8921-531CCE47BF2D - 2d526dd913903c03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImagePickerCollectionViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImagePicker/ImagePickerCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "792">
+               </Location>
+               <Location
+                  uuid = "97C0BE58-0E7D-4078-8921-531CCE47BF2D - 2d526dd913903c03"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "RoomvuPhotoCroper.ImagePickerCollectionViewController.prepare(for: __C.UIStoryboardSegue, sender: Swift.Optional&lt;Any&gt;) -&gt; ()"
+                  moduleName = "RoomvuPhotoCroper"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/iman/Documents/SwiftProjects/RoomvuPhotoCroper/RoomvuPhotoCroper/ImagePicker/ImagePickerCollectionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "124"
+                  endingLineNumber = "124"
+                  offsetFromSymbolStart = "954">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

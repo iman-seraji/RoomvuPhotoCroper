@@ -48,7 +48,7 @@ class ProgressViewController: UIViewController {
         let url = ApiInfo.UserImage.Value
 
         // Image data
-        guard let imageData = image.jpegData(compressionQuality: 0.5) else {
+        guard let imageData = image.jpegData(compressionQuality: 1.0) else {
             print("Failed to get image data")
             return
         }

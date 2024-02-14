@@ -19,6 +19,13 @@ import Combine
      }
 
      func fetchPhotos() {
+         
+         let fetchOptions = PHFetchOptions()
+            fetchOptions.sortDescriptors = [NSSortDescriptor(key: "creationDate", ascending: false)]
+            let fetchResult = PHAsset.fetchAssets(with: .image, options: fetchOptions)
+            
+         
+         
          PHPhotoLibrary.requestAuthorization { [weak self] status in
              guard status == .authorized else { return }
              let assets = PHAsset.fetchAssets(with: .image, options: nil)
@@ -27,6 +34,7 @@ import Combine
                  fetchedPhotos.append(asset)
              }
              DispatchQueue.main.async {
+                 
                  self?.photos = fetchedPhotos
              }
          }

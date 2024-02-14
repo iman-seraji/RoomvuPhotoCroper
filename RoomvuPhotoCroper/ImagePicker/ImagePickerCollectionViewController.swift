@@ -12,7 +12,7 @@ import Combine
 
 
 
-class ImagePickerCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout {
+class ImagePickerCollectionViewController: UICollectionViewController,UICollectionViewDelegateFlowLayout,UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
      
     private var viewModel = ImagePickerViewModel()
@@ -87,8 +87,10 @@ class ImagePickerCollectionViewController: UICollectionViewController,UICollecti
               
               // Add the target for the button
               cell.imageButton.addTarget(self, action: #selector(buttonTapped(_:)), for: .touchUpInside)
-              
-        manager.requestImage(for: asset, targetSize: CGSize(width: 500, height: 500), contentMode: .aspectFit, options: nil) {image, _ in
+        let options = PHImageRequestOptions()
+           options.isSynchronous = true // For simplicity, set to synchronous, but consider using asynchronous requests in production code
+
+        manager.requestImage(for: asset, targetSize: CGSize(width: 250, height: 250), contentMode: .aspectFit, options: options) {image, _ in
             
            
                 
@@ -99,13 +101,40 @@ class ImagePickerCollectionViewController: UICollectionViewController,UICollecti
     
         return cell
     }
+    
+    func showImagePicker(with asset: PHAsset) {
+        let imagePicker = UIImagePickerController()
+        imagePicker.sourceType = .photoLibrary
+        imagePicker.delegate = self
+        self.present(imagePicker, animated: true, completion: nil)
+    }
+
+    // MARK: - UIImagePickerControllerDelegate
+
+    func imagePickerController(_ picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [UIImagePickerController.InfoKey : Any]) {
+        guard let image = info[.originalImage] as? UIImage else {
+            picker.dismiss(animated: true, completion: nil)
+            return
+        }
+
+        // Do something with the selected image
+        // For example, you can display it in an image view
+        // Or you can process it further
+    }
+
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        picker.dismiss(animated: true, completion: nil)
+    }
  
     @objc func buttonTapped(_ sender: UIButton) {
             let index = sender.tag
             print("Button tapped in cell at index \(index)")
         let asset = self.images[index]
         let manager = PHImageManager.default()
-        manager.requestImage(for: asset, targetSize: CGSize(width: 500, height: 500), contentMode: .default, options: nil) {image, _ in
+        let options = PHImageRequestOptions()
+           options.isSynchronous = true // For simplicity, set to synchronous, but consider using asynchronous requests in production code
+
+        manager.requestImage(for: asset, targetSize: PHImageManagerMaximumSize, contentMode: .aspectFit, options: options) {image, _ in
             
            
                 
